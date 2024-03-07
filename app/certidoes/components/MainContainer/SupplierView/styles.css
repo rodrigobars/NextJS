@@ -1,0 +1,12 @@
+/* Adicione essas classes no seu CSS ou use Tailwind CSS */
+.certidao-item {
+    font-size: '6rem'
+}
+
+.nada_consta {
+    color: green; /* ou qualquer cor desejada */
+}
+
+.constam_registros {
+    color: orange; /* ou qualquer cor desejada */
+}

@@ -1,0 +1,21 @@
+.animated-arrow-container {
+    display: inline-block;
+    animation: bounce 1.5s infinite; /* Configuração da animação: duração, repetição infinita */
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); /* Posição inicial e final: sem movimento vertical */
+    }
+    40% {
+      transform: translateY(-5px); /* Movimento ascendente */
+    }
+    60% {
+      transform: translateY(-3px); /* Movimento descendente */
+    }
+  }
+  
+  /* Estilos adicionais conforme necessário
+  .animated-arrow {
+    /* Adicione estilos adicionais ao ícone, se necessário */
+  

@@ -3207,12 +3207,8 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                     <Tab key="Cnetmobile" title="Cnetmobile" className='w-full'>
                         {dadosCnetMobile
                             &&
-                            <CnetMobile
-                                dadosCnetMobile={dados}
-                                />
-                            &&
                             <CnetMobileTable
-                                dados={dados}
+                                dados={dadosCnetMobile}
                             />
                         }
                     </Tab>
@@ -3254,7 +3250,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                                 <Button color="primary" onPress={
                                     () => {
                                         onClose()
-                                        // startFetchingCnetMobile()
+                                        startFetchingCnetMobile()
                                     }
                                 }>
                                     Iniciar

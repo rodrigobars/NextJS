@@ -33,7 +33,7 @@ export default function CnetMobileTable( { dados } ) {
                                 <TableCell
                                     className='animate-none text-center'
                                     >
-                                    <p className='font-bold'>{proposta.numero}</p>
+                                    <Chip variant='flat' color='primary'>{proposta.numero}</Chip>
                                 </TableCell>
 
                                 <TableCell

@@ -1,9 +1,9 @@
 App feito em NextJs que integra informações do Portal Nacional de Contratações Públicas (PNCP), Tribunal de Contas da União (TCU) e Compras.gov.br (cnetmobile). O objetivo é consolidar informações de licitações para facilitar a manipulação dos mesmos, possibilitando a geração de certidões consolidadas do TCU, como:
 
-[TCU] Inidôneos - Licitantes Inidôneos		
-[CNJ]	CNIA - Cadastro Nacional de Condenações Cíveis por Ato de Improbidade Administrativa e Inelegibilidade		
-[Portal da Transparência]	CEIS - Cadastro Nacional de Empresas Inidôneas e Suspensas		
-[Portal da Transparência]	CNEP - Cadastro Nacional de Empresas Punidas
+- [TCU] Inidôneos - Licitantes Inidôneos		
+- [CNJ]	CNIA - Cadastro Nacional de Condenações Cíveis por Ato de Improbidade Administrativa e Inelegibilidade		
+- [Portal da Transparência]	CEIS - Cadastro Nacional de Empresas Inidôneas e Suspensas		
+- [Portal da Transparência]	CNEP - Cadastro Nacional de Empresas Punidas
 
 e automações como:
 

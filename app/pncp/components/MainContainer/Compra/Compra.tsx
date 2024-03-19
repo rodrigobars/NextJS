@@ -6,7 +6,6 @@ import TabelaItens from './TabelaItens/TabelaItens';
 import CompraDetalhes from './CompraDetalhes/CompraDetalhes';
 import TabelaResultados from './TabelaResultados/TabelaResultados';
 import TabelaResumo from './TabelaResumo/TabelaResumo';
-import CnetMobile from './CnetMobile/CnetMobile';
 import CnetMobileTable from './CnetMobile/CnetMobileTable';
 
 interface OrgaoEntidade {

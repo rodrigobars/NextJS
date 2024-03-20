@@ -3083,7 +3083,8 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [resultados, setResultados] = useState<ResultadoCompraItem[]>([])
     const [existeResultado, setExisteResultado] = useState(false)
     const [compraNumero, setCompraNumero] = useState('')
-    const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
+    //const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
+    const [dadosCnetMobile, setDadosCnetMobile] = useState([])
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     const [isActivated, setIsActivated] = useState(false)
 
@@ -3204,7 +3205,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                     </Tab>
 
                     <Tab key="Cnetmobile" title="Cnetmobile" className='w-full'>
-                        {dadosCnetMobile
+                        {(dadosCnetMobile)
                             &&
                             <CnetMobileTable
                                 dados={dadosCnetMobile}

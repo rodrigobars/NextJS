@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter } from '@nextui-org/react';
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer } from '@nextui-org/react';
 import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
 
@@ -16,7 +16,7 @@ export default function CnetMobileTable( { dados } ) {
     return (
         <div className='sm gap-5 overflow-x-auto max-w-full'>
             <Table
-                isStriped
+                selectionMode="single"
                 color='secondary'
                 isHeaderSticky
                 topContentPlacement="outside"
@@ -42,7 +42,7 @@ export default function CnetMobileTable( { dados } ) {
                                 <TableCell
                                     className='animate-none text-center'
                                     >
-                                    <Chip variant='flat' color='primary'>{proposta.numero}</Chip>
+                                    <Chip variant='flat' color='primary' size='lg'>{proposta.numero}</Chip>
                                 </TableCell>
 
                                 <TableCell
@@ -66,19 +66,20 @@ export default function CnetMobileTable( { dados } ) {
                                 <TableCell
                                     className='text-left'
                                     >
+                                    <p><strong>situacao: </strong>{proposta.situacao}</p>
+                                    <p><strong>fase: </strong>{proposta.fase}</p>
+                                    <p><strong>julgHabEncerrada: </strong>{proposta.julgHabEncerrada}</p>
+                                    <p><strong>numeroSessaoJulgHab: </strong>{proposta.numeroSessaoJulgHab}</p>
+                                    <p><strong>homologado: </strong>{proposta.homologado}</p>
+                                    <Spacer y={5}/>
                                     <p><strong>Tipo: </strong>{proposta.tipo}</p>
                                     <p><strong>disputaPorValorUnitario: </strong>{proposta.disputaPorValorUnitario}</p>
                                     <p><strong>criterioJulgamento: </strong>{proposta.criterioJulgamento}</p>
-                                    <p><strong>homologado: </strong>{proposta.homologado}</p>
                                     <p><strong>situacaoEnvioResultado: </strong>{proposta.situacaoEnvioResultado}</p>
-                                    <p><strong>numeroSessaoJulgHab: </strong>{proposta.numeroSessaoJulgHab}</p>
                                     <p><strong>tipoTratamentoDiferenciadoMeEpp: </strong>{proposta.tipoTratamentoDiferenciadoMeEpp}</p>
                                     <p><strong>participacaoExclusivaMeEppOuEquiparadas: </strong>{proposta.participacaoExclusivaMeEppOuEquiparadas}</p>
-                                    <p><strong>situacao: </strong>{proposta.situacao}</p>
-                                    <p><strong>fase: </strong>{proposta.fase}</p>
                                     <p><strong>criterioValor: </strong>{proposta.criterioValor}</p>
                                     <p><strong>priorizarAbertura: </strong>{proposta.priorizarAbertura}</p>
-                                    <p><strong>julgHabEncerrada: </strong>{proposta.julgHabEncerrada}</p>
                                     <p><strong>criterioValor: </strong>{proposta.criterioValor}</p>
                                     <p><strong>qtdeItensDoGrupo: </strong>{proposta.qtdeItensDoGrupo}</p>
                                     <p><strong>qtdeAceitaSrp: </strong>{proposta.qtdeAceitaSrp}</p>
@@ -101,7 +102,7 @@ export default function CnetMobileTable( { dados } ) {
                                                                 </p>
                                                                 <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
                                                             </div>
-                                                            <Chip variant='shadow' color='secondary'>{itemIndex+1}.º</Chip>
+                                                            <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
                                                         </CardHeader>
                                                         <Divider/>
                                                         <CardBody>
@@ -124,7 +125,7 @@ export default function CnetMobileTable( { dados } ) {
                                                         {(item.situacao != 'None') && (
                                                             <>
                                                                 <Divider/>
-                                                                <CardFooter>
+                                                                <CardFooter className='flex justify-center'>
                                                                     <Chip variant='flat' color={tipo(item.situacao)}>{item.situacao}</Chip>
                                                                 </CardFooter>
                                                             </>

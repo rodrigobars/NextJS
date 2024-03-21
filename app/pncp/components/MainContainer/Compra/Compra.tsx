@@ -127,2955 +127,1353 @@ function extrairNumeroDaCompra(url: string): string | null {
     }
 
 const dados = [
-    {
-      "numero": 2,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "2",
-      "descricao": "\"Milho\"",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
-      "participacaoExclusivaMeEppOuEquiparadas": "Não",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 1000,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 83.0,
-      "valorEstimadoTotal": 83000.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 200000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
+  {
+    "numero": 3,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "3",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 2,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Habilitação encerrada",
+    "quantidadeSolicitada": 2190,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 15.45,
+    "valorEstimadoTotal": 33835.5,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 82900.0,
-                "valorUnitario": 82.9
-              },
-              "valorInformado": 82.9
+            "valorInformado": 15.45
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 19622.4,
+              "valorUnitario": 8.96
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 8.96
           },
-          "quantidadeOfertada": 1000,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "NACIONAL",
-          "modeloVersao": "MILHO EM GRÃOS",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 83000.0,
-                "valorUnitario": 83.0
-              },
-              "valorInformado": 83.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 83000.0,
-                "valorUnitario": 83.0
-              },
-              "valorInformado": 83.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 1000,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Bpg",
-          "modeloVersao": "Milho\" Tipo: Grão , Aplicação: Alimento Para Anima",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2190,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "Q PÃO/ PLUS VITA",
+        "modeloVersao": "CARACTERISTICO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 98000.0,
-                "valorUnitario": 98.0
-              },
-              "valorInformado": 98.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada, ressaltando a previsão do edital de que a proposta deve conter somente uma marca, sob pena de recusa da proposta.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-02-29T15:00:00",
+        "motivoDesclassificacao": "Necessidade de revisão de decisão na fase de julgamento. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33726.0,
+              "valorUnitario": 15.4
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 98000.0,
-                "valorUnitario": 98.0
-              },
-              "valorInformado": 98.0
+            "valorInformado": 15.4
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 19710.0,
+              "valorUnitario": 9.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 9.0
           },
-          "quantidadeOfertada": 1000,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RAÇÕES AGROMAIS ",
-          "modeloVersao": "MILHO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 1,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "1",
-      "descricao": "Farelo",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 500,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 160.0,
-      "valorEstimadoTotal": 80000.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 150000.0,
-                "valorUnitario": 300.0
-              },
-              "valorInformado": 300.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 72500.0,
-                "valorUnitario": 145.0
-              },
-              "valorInformado": 145.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 500,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "BUNGE",
-          "modeloVersao": "FARELO DE SOJA",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 80000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 73000.0,
-                "valorUnitario": 146.0
-              },
-              "valorInformado": 146.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 500,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "ADM",
-          "modeloVersao": "FARELO DE SOJA ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2190,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": "QPÃO",
+        "modeloVersao": "PACOTE",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "10910334000156",
+          "nome": "GUARAILHA DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 125000.0,
-                "valorUnitario": 250.0
-              },
-              "valorInformado": 250.0
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": "A proposta será desclassificada sem necessidade de envio de proposta atualizada pelo licitante, seguindo o princípio da economicidade, já que a marca ofertada já foi recusada pela área técnica por não atender aos requisitos do edital, a saber, o fornecimento em embalagens de gramatura de 500g.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 76500.0,
-                "valorUnitario": 153.0
-              },
-              "valorInformado": 153.0
+            "valorInformado": 15.45
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 23783.4,
+              "valorUnitario": 10.86
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 10.86
           },
-          "quantidadeOfertada": 500,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "CARGILL",
-          "modeloVersao": "FARELO DE SOJA ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "32492168000158",
-            "nome": "MEGAMAQ EQUIPAMENTOS, PRODUTOS E SERVICOS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 80000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 80000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 500,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Bpg",
-          "modeloVersao": "Alinento animal",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 3,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "3",
-      "descricao": "Suplemento Alimentar Animal",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 24,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 253.89,
-      "valorEstimadoTotal": 6093.36,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 6093.36,
-                "valorUnitario": 253.89
-              },
-              "valorInformado": 253.89
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 6000.0,
-                "valorUnitario": 250.0
-              },
-              "valorInformado": 250.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 24,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "AGROCERES",
-          "modeloVersao": "NUCLEO OVINOS",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio do ctf prar o item 08",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T17:40:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2190,
+        "descricaoDetalhada": "Pão - Pão Base: De Farinha De Trigo Integral , Tipo: De Forma , Apresentação: Fatiado , Tipo Embalagem: Embalagem Individual",
+        "situacao": "Fornecedor habilitado",
+        "marcaFabricante": "PANCO",
+        "modeloVersao": "caracteristico",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "74116898000102",
+          "nome": "COMAX COMERCIO DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 6072.0,
-                "valorUnitario": 253.0
-              },
-              "valorInformado": 253.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da documentação necessária para habilitação da empresa, por gentileza. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-03-15T14:00:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 6072.0,
-                "valorUnitario": 253.0
-              },
-              "valorInformado": 253.0
+            "valorInformado": 15.45
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 15.45
           },
-          "quantidadeOfertada": 24,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Suplemento Alimentar Animal Tipo: Vitamínico E Min",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 5,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "5",
-      "descricao": "Sal mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 15,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 119.37,
-      "valorEstimadoTotal": 1790.55,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 2700.0,
-                "valorUnitario": 180.0
-              },
-              "valorInformado": 180.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 1747.5,
-                "valorUnitario": 116.5
-              },
-              "valorInformado": 116.5
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "MASTERFOS 70 EQUINO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 1790.55,
-                "valorUnitario": 119.37
-              },
-              "valorInformado": 119.37
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 1755.0,
-                "valorUnitario": 117.0
-              },
-              "valorInformado": 117.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RAÇÕES AGROMAIS /WGM",
-          "modeloVersao": "SAL MINERAL ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2190,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao integral",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 1785.0,
-                "valorUnitario": 119.0
-              },
-              "valorInformado": 119.0
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 1785.0,
-                "valorUnitario": 119.0
-              },
-              "valorInformado": 119.0
+            "valorInformado": 15.45
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 33835.5,
+              "valorUnitario": 15.45
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 15.45
           },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Sal Mineral Ingredientes: Cálcio Mín. 135,00 G; Cá",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 4,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "4",
-      "descricao": "Sal Mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 20,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 150.02,
-      "valorEstimadoTotal": 3000.4,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 4000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2890.0,
-                "valorUnitario": 144.5
-              },
-              "valorInformado": 144.5
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "NC DESTAQUE BOVILAC",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio dos CTFs para os itens informado de acordo com o Termo de referência do Edital conforme informado em mensagem anterior.",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T17:40:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3000.4,
-                "valorUnitario": 150.02
-              },
-              "valorInformado": 150.02
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2900.0,
-                "valorUnitario": 145.0
-              },
-              "valorInformado": 145.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "PRODAP - LACTAMAX",
-          "modeloVersao": "NUCLEO ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2190,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "panco",
+        "modeloVersao": "pao de forma panco",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "28007449000109",
+          "nome": "BAR ESPETINHO TROPICAL LTDA.",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3000.0,
-                "valorUnitario": 150.0
-              },
-              "valorInformado": 150.0
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 2,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "2",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 2,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Habilitação encerrada",
+    "quantidadeSolicitada": 3890,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 12.46,
+    "valorEstimadoTotal": 48469.4,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 48469.4,
+              "valorUnitario": 12.46
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 3000.0,
-                "valorUnitario": 150.0
-              },
-              "valorInformado": 150.0
+            "valorInformado": 12.46
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 27035.5,
+              "valorUnitario": 6.95
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 6.95
           },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Sal Mineral Ingredientes: Cálcio Mín. 135,00 G; Cá",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 6,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "6",
-      "descricao": "Sal Mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 30,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 115.0,
-      "valorEstimadoTotal": 3450.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 6000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 3285.0,
-                "valorUnitario": 109.5
-              },
-              "valorInformado": 109.5
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 30,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "MASTERFOS 80",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3450.0,
-                "valorUnitario": 115.0
-              },
-              "valorInformado": 115.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 3300.0,
-                "valorUnitario": 110.0
-              },
-              "valorInformado": 110.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 30,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RAÇÕES AGROMAIS/WGM",
-          "modeloVersao": "SAL MINERAL ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 3890,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "Q PÃO",
+        "modeloVersao": "CARACTERISTICO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3420.0,
-                "valorUnitario": 114.0
-              },
-              "valorInformado": 114.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-02-29T14:30:00",
+        "motivoDesclassificacao": "Necessidade de revisão de decisão na fase de julgamento. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 48236.0,
+              "valorUnitario": 12.4
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 3330.0,
-                "valorUnitario": 111.0
-              },
-              "valorInformado": 111.0
+            "valorInformado": 12.4
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 27230.0,
+              "valorUnitario": 7.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 7.0
           },
-          "quantidadeOfertada": 30,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Sal Mineral Ingredientes: Cálcio Mín. 135,00 G; Cá",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 8,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "8",
-      "descricao": "Sal Mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 15,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 98.0,
-      "valorEstimadoTotal": 1470.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 1470.0,
-                "valorUnitario": 98.0
-              },
-              "valorInformado": 98.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 1470.0,
-                "valorUnitario": 98.0
-              },
-              "valorInformado": 98.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RAÇÕES AGROMAIS/WGM",
-          "modeloVersao": "SAL MINERAL ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2100.0,
-                "valorUnitario": 140.0
-              },
-              "valorInformado": 140.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "MASTERFOS 65 CAP/OVINO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 7,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "7",
-      "descricao": "Sal Mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 20,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 158.63,
-      "valorEstimadoTotal": 3172.6,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 4000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2100.0,
-                "valorUnitario": 105.0
-              },
-              "valorInformado": 105.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "MASTERFOS 45",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 3890,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": "QPÃO",
+        "modeloVersao": "PACOTE ",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "10910334000156",
+          "nome": "GUARAILHA DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3172.6,
-                "valorUnitario": 158.63
-              },
-              "valorInformado": 158.63
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": "A proposta será desclassificada sem necessidade de envio de proposta atualizada pelo licitante, seguindo o princípio da economicidade, já que a marca ofertada já foi recusada pela área técnica por não atender aos requisitos do edital, a saber, o fornecimento em embalagens de gramatura de 500g.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 48469.4,
+              "valorUnitario": 12.46
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2200.0,
-                "valorUnitario": 110.0
-              },
-              "valorInformado": 110.0
+            "valorInformado": 12.46
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 30380.9,
+              "valorUnitario": 7.81
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 7.81
           },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RAÇÕES AGROMAIS/WGM",
-          "modeloVersao": "SAL MINERAL ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3160.0,
-                "valorUnitario": 158.0
-              },
-              "valorInformado": 158.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 3160.0,
-                "valorUnitario": 158.0
-              },
-              "valorInformado": 158.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 20,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Sal Mineral Ingredientes: Cálcio, Fósforo, Magnési",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 9,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "9",
-      "descricao": "Sal Mineral",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 15,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 148.52,
-      "valorEstimadoTotal": 2227.8,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 3000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2062.5,
-                "valorUnitario": 137.5
-              },
-              "valorInformado": 137.5
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "MASTER",
-          "modeloVersao": "MASTERFOS 65 CAP/OVINO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "27120416000108",
-            "nome": "EDWINEY SEBASTIAO CUPERTINO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 3890,
+        "descricaoDetalhada": "Pão - Pão Base: De Farinha De Trigo Refinada , Tipo: De Forma , Tipo Adicional: Tradicional , Apresentação: Fatiado , Tipo Embalagem: Embalagem Individual",
+        "situacao": "Fornecedor habilitado",
+        "marcaFabricante": "PANCO",
+        "modeloVersao": "caracteristico",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "74116898000102",
+          "nome": "COMAX COMERCIO DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 2223.75,
-                "valorUnitario": 148.25
-              },
-              "valorInformado": 148.25
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da documentação necessária para habilitação da empresa, por gentileza. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-03-15T14:00:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 48236.0,
+              "valorUnitario": 12.4
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2070.0,
-                "valorUnitario": 138.0
-              },
-              "valorInformado": 138.0
+            "valorInformado": 12.4
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 48236.0,
+              "valorUnitario": 12.4
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 12.4
           },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "DE HEUS ",
-          "modeloVersao": "SAL MINERAL ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 2220.0,
-                "valorUnitario": 148.0
-              },
-              "valorInformado": 148.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 2220.0,
-                "valorUnitario": 148.0
-              },
-              "valorInformado": 148.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 15,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Sal Mineral Aplicação: Caprinos , Dosagem Componen",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 10,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "10",
-      "descricao": "Adubo químico",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 150,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 162.67,
-      "valorEstimadoTotal": 24400.5,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 24000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 20250.0,
-                "valorUnitario": 135.0
-              },
-              "valorInformado": 135.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "HERINGER",
-          "modeloVersao": "KCL",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "12457041000190",
-            "nome": "ATACADAO DAS RACOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "S",
-          "justificativaUltimaSolicitacaoAnexos": "Prezados, não foi enviado CTF conforme solicitado no chat e edital - vamos abrir o anexo para envio com prazo final às 17:40 - item 10 ",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T17:40:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 3890,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "Visconti/Wickbold",
+        "modeloVersao": "pão Base: De Farinha De Trigo Refinada , Tipo: De ",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 24400.5,
-                "valorUnitario": 162.67
-              },
-              "valorInformado": 162.67
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 48469.4,
+              "valorUnitario": 12.46
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 20400.0,
-                "valorUnitario": 136.0
-              },
-              "valorInformado": 136.0
+            "valorInformado": 12.46
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 48469.4,
+              "valorUnitario": 12.46
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 12.46
           },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR ",
-          "modeloVersao": "ADUBO QUIMICO ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 24400.5,
-                "valorUnitario": 162.67
-              },
-              "valorInformado": 162.67
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 23526.0,
-                "valorUnitario": 156.84
-              },
-              "valorInformado": 156.84
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": "Adubo químico - Adubo Químico Aspecto Físico: Pó , Cor: Rosa , Composição Básica: Cloreto De Potássio A 50%",
-          "situacao": "None",
-          "marcaFabricante": "heringer",
-          "modeloVersao": "heringer",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "04576614000177",
-            "nome": "M A M VIDAL LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 3890,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "panco",
+        "modeloVersao": "por de forma panco",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "28007449000109",
+          "nome": "BAR ESPETINHO TROPICAL LTDA.",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 24300.0,
-                "valorUnitario": 162.0
-              },
-              "valorInformado": 162.0
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 5,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "5",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 1000,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 33.3,
+    "valorEstimadoTotal": 33300.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33100.0,
+              "valorUnitario": 33.1
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 24300.0,
-                "valorUnitario": 162.0
-              },
-              "valorInformado": 162.0
+            "valorInformado": 33.1
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 33100.0,
+              "valorUnitario": 33.1
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 33.1
           },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Adubo Químico Aspecto Físico: Pó , Cor: Rosa , Com",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 32110.0,
+              "valorUnitario": 32.11
+            },
+            "valorInformado": 32.11
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 32110.0,
+              "valorUnitario": 32.11
+            },
+            "valorInformado": 32.11
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 24400.5,
-                "valorUnitario": 162.67
-              },
-              "valorInformado": 162.67
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 24400.5,
-                "valorUnitario": 162.67
-              },
-              "valorInformado": 162.67
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Industria Química",
-          "modeloVersao": "saco 50 KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "42382002000132",
-            "nome": "THUYA PLANTAS E JARDINS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1000,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao de creme",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 30000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição dos valores ofertados, já que a empresa foi a única participante dos itens e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 4,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "4",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 1600,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 34.85,
+    "valorEstimadoTotal": 55760.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 55680.0,
+              "valorUnitario": 34.8
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 29970.0,
-                "valorUnitario": 199.8
-              },
-              "valorInformado": 199.8
+            "valorInformado": 34.8
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 55680.0,
+              "valorUnitario": 34.8
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 34.8
           },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR",
-          "modeloVersao": "SC DE 50KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "09590203000150",
-            "nome": "PLANTIUN DISTRIBUIDORA LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 53424.0,
+              "valorUnitario": 33.39
+            },
+            "valorInformado": 33.39
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 53424.0,
+              "valorUnitario": 33.39
+            },
+            "valorInformado": 33.39
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 30000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 30000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR/FERTIPAR",
-          "modeloVersao": "SACO 50 KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "11163447000106",
-            "nome": "TECA TECNOLOGIA E COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1600,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao de coco",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 31900.5,
-                "valorUnitario": 212.67
-              },
-              "valorInformado": 212.67
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Abertura de prazo para envio da documentação pendente, conforme explicação no \"chat\" com a empresa no presente item. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-03-04T15:15:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 1,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "1",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 2250,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 27.0,
+    "valorEstimadoTotal": 60750.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 60750.0,
+              "valorUnitario": 27.0
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 31900.5,
-                "valorUnitario": 212.67
-              },
-              "valorInformado": 212.67
+            "valorInformado": 27.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 56137.5,
+              "valorUnitario": 24.95
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 24.95
           },
-          "quantidadeOfertada": 150,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Adubo Cloreto de Potasio",
-          "modeloVersao": "Fertipar",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "43979792000109",
-            "nome": "JS AZZURI COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 11,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "11",
-      "descricao": "Fertilizante Ureia",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 300,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 160.0,
-      "valorEstimadoTotal": 48000.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 47100.0,
-                "valorUnitario": 157.0
-              },
-              "valorInformado": 157.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR ",
-          "modeloVersao": "FERTILIZANTE UREIA ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 47400.0,
-                "valorUnitario": 158.0
-              },
-              "valorInformado": 158.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Fertilizante Ureia Composição Química Nitrogênio: ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2250,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": "Q PÃO",
+        "modeloVersao": "CARACTERISTICO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, enviar, por gentileza, o contrato social da empresa.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-03-01T16:00:00",
+        "motivoDesclassificacao": "A licitante não apresentou amostra do item dentro do prazo determinado, o que, de acordo com o item 4.5 do Termo de Referência, motiva a recusa de sua proposta. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 58500.0,
+              "valorUnitario": 26.0
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
+            "valorInformado": 26.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 56250.0,
+              "valorUnitario": 25.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 25.0
           },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Heringe",
-          "modeloVersao": "Uréia 46",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "12457041000190",
-            "nome": "ATACADAO DAS RACOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "NitroBrás",
-          "modeloVersao": "Fertilizante Ureia",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "48859538000182",
-            "nome": "SG EMPREENDIMENTOS COMERCIAIS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2250,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PADARIA NOVA LISBOA",
+        "modeloVersao": "KG",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "10910334000156",
+          "nome": "GUARAILHA DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio do balanço patrimonial referente aos dois últimos exercícios sociais, por gentileza. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-18T13:30:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 60750.0,
+              "valorUnitario": 27.0
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 48000.0,
-                "valorUnitario": 160.0
-              },
-              "valorInformado": 160.0
+            "valorInformado": 27.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 60750.0,
+              "valorUnitario": 27.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 27.0
           },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Indústria Química",
-          "modeloVersao": "Saco de 50 kg",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "42382002000132",
-            "nome": "THUYA PLANTAS E JARDINS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 60000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 59940.0,
-                "valorUnitario": 199.8
-              },
-              "valorInformado": 199.8
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR",
-          "modeloVersao": "SC DE 50KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "09590203000150",
-            "nome": "PLANTIUN DISTRIBUIDORA LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 2250,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao careca",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 60000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 7,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "7",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 400,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 34.31,
+    "valorEstimadoTotal": 13724.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 13720.0,
+              "valorUnitario": 34.3
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 60000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
+            "valorInformado": 34.3
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 13720.0,
+              "valorUnitario": 34.3
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 34.3
           },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR/FERTIPAR",
-          "modeloVersao": "SQACO 50 KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "11163447000106",
-            "nome": "TECA TECNOLOGIA E COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 13208.0,
+              "valorUnitario": 33.02
+            },
+            "valorInformado": 33.02
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 13208.0,
+              "valorUnitario": 33.02
+            },
+            "valorInformado": 33.02
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 63000.0,
-                "valorUnitario": 210.0
-              },
-              "valorInformado": 210.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 63000.0,
-                "valorUnitario": 210.0
-              },
-              "valorInformado": 210.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 300,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Ureia 46% ",
-          "modeloVersao": "Fertipar",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "43979792000109",
-            "nome": "JS AZZURI COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 12,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "12",
-      "descricao": "Adubo Químico",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 100,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 174.5,
-      "valorEstimadoTotal": 17450.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 12900.0,
-                "valorUnitario": 129.0
-              },
-              "valorInformado": 129.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR ",
-          "modeloVersao": "ADUBO QUIMICO ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "44429540000160",
-            "nome": "DISTRIBUIDORA ESPIRITO SANTO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 400,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao brioche",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição do valor ofertado, já que a empresa foi a única participante do item e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 10,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "10",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Habilitação encerrada",
+    "quantidadeSolicitada": 1740,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 30.88,
+    "valorEstimadoTotal": 53731.2,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 53731.2,
+              "valorUnitario": 30.88
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 13087.0,
-                "valorUnitario": 130.87
-              },
-              "valorInformado": 130.87
+            "valorInformado": 30.88
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 24273.0,
+              "valorUnitario": 13.95
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 13.95
           },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": "Adubo Químico - Adubo Químico Aspecto Físico: Granulado , Composição Básica: Superfosfato Triplo, Mínimo 40% De P2 O3 , Aplicação: Agrícola",
-          "situacao": "None",
-          "marcaFabricante": "heringer",
-          "modeloVersao": "heringer",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "04576614000177",
-            "nome": "M A M VIDAL LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 20000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 14500.0,
-                "valorUnitario": 145.0
-              },
-              "valorInformado": 145.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR",
-          "modeloVersao": "SC DE 50KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "09590203000150",
-            "nome": "PLANTIUN DISTRIBUIDORA LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1740,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor habilitado",
+        "marcaFabricante": "Q PÃO",
+        "modeloVersao": "CARACTERISTICO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17000.0,
-                "valorUnitario": 170.0
-              },
-              "valorInformado": 170.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T14:30:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 53592.0,
+              "valorUnitario": 30.8
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 14700.0,
-                "valorUnitario": 147.0
-              },
-              "valorInformado": 147.0
+            "valorInformado": 30.8
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 24360.0,
+              "valorUnitario": 14.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 14.0
           },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "HERINGER",
-          "modeloVersao": "SUPER FOSFATO SIMPLES",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "12457041000190",
-            "nome": "ATACADAO DAS RACOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 20000.0,
-                "valorUnitario": 200.0
-              },
-              "valorInformado": 200.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 16983.0,
-                "valorUnitario": 169.83
-              },
-              "valorInformado": 169.83
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "FERTIPAR/FERTIPAR",
-          "modeloVersao": "SACO 50 KG",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "11163447000106",
-            "nome": "TECA TECNOLOGIA E COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1740,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PADARIA NOVA LISBOA",
+        "modeloVersao": "KG",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "10910334000156",
+          "nome": "GUARAILHA DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 53679.0,
+              "valorUnitario": 30.85
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
+            "valorInformado": 30.85
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 53679.0,
+              "valorUnitario": 30.85
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 30.85
           },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "NitroBrás",
-          "modeloVersao": "Adubo Químico Superfosfato Triplo",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "48859538000182",
-            "nome": "SG EMPREENDIMENTOS COMERCIAIS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 17450.0,
-                "valorUnitario": 174.5
-              },
-              "valorInformado": 174.5
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Indústria Química",
-          "modeloVersao": "Saco de 50 kg",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "42382002000132",
-            "nome": "THUYA PLANTAS E JARDINS LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1740,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "propria",
+        "modeloVersao": "bisnaga",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 22450.0,
-                "valorUnitario": 224.5
-              },
-              "valorInformado": 224.5
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 6,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "6",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 1600,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 32.21,
+    "valorEstimadoTotal": 51536.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 51520.0,
+              "valorUnitario": 32.2
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 22450.0,
-                "valorUnitario": 224.5
-              },
-              "valorInformado": 224.5
+            "valorInformado": 32.2
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 51520.0,
+              "valorUnitario": 32.2
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 32.2
           },
-          "quantidadeOfertada": 100,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Super Simples",
-          "modeloVersao": "Fertipar",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "43979792000109",
-            "nome": "JS AZZURI COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 13,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "13",
-      "descricao": "Glifosato",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 350,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 37.47,
-      "valorEstimadoTotal": 13114.5,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 13114.5,
-                "valorUnitario": 37.47
-              },
-              "valorInformado": 37.47
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 49696.0,
+              "valorUnitario": 31.06
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7350.0,
-                "valorUnitario": 21.0
-              },
-              "valorInformado": 21.0
+            "valorInformado": 31.06
+          },
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 49696.0,
+              "valorUnitario": 31.06
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "GLIFSATO IPA RAINBOWN ",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "50630988000140",
-            "nome": "AGRO ZAIDAN COMERCIAL LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Prezados, não foi enviado CTF conforme solicitado no chat e edital - vamos abrir o anexo para envio com prazo final às 17:40 - item 10 ",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T17:40:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+            "valorInformado": 31.06
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 13114.5,
-                "valorUnitario": 37.47
-              },
-              "valorInformado": 37.47
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7487.375,
-                "valorUnitario": 21.3925
-              },
-              "valorInformado": 21.3925
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Braddock SL",
-          "modeloVersao": "Solus do brasil",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "43979792000109",
-            "nome": "JS AZZURI COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1600,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao françes",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 17500.0,
-                "valorUnitario": 50.0
-              },
-              "valorInformado": 50.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição do valor ofertado, já que a empresa foi a única participante do item e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 9,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "9",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 200,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 35.0,
+    "valorEstimadoTotal": 7000.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 7000.0,
+              "valorUnitario": 35.0
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7521.22,
-                "valorUnitario": 21.4892
-              },
-              "valorInformado": 21.4892
+            "valorInformado": 35.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 7000.0,
+              "valorUnitario": 35.0
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 35.0
           },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "RIDOWN FULL / RAINBOW",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "09590203000150",
-            "nome": "PLANTIUN DISTRIBUIDORA LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 6726.0,
+              "valorUnitario": 33.63
+            },
+            "valorInformado": 33.63
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 6726.0,
+              "valorUnitario": 33.63
+            },
+            "valorInformado": 33.63
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 13090.0,
-                "valorUnitario": 37.4
-              },
-              "valorInformado": 37.4
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 10486.0,
-                "valorUnitario": 29.96
-              },
-              "valorInformado": 29.96
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Trop / Adama",
-          "modeloVersao": "Balde 20L",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "15153524000190",
-            "nome": "SANIGRAN LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 200,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao de milho",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 14000.0,
-                "valorUnitario": 40.0
-              },
-              "valorInformado": 40.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição do valor ofertado, já que a empresa foi a única participante do item e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 8,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "8",
+    "descricao": "Pão",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 200,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 29.5,
+    "valorEstimadoTotal": 5900.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 5880.0,
+              "valorUnitario": 29.4
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 10522.75,
-                "valorUnitario": 30.065
-              },
-              "valorInformado": 30.065
+            "valorInformado": 29.4
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 5880.0,
+              "valorUnitario": 29.4
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 29.4
           },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "SUMÔ/PILARQUIM",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "11163447000106",
-            "nome": "TECA TECNOLOGIA E COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 5634.0,
+              "valorUnitario": 28.17
+            },
+            "valorInformado": 28.17
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 5634.0,
+              "valorUnitario": 28.17
+            },
+            "valorInformado": 28.17
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 13114.5,
-                "valorUnitario": 37.47
-              },
-              "valorInformado": 37.47
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 13114.5,
-                "valorUnitario": 37.47
-              },
-              "valorInformado": 37.47
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 350,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Glifosato Concentração: 64,8% P/V , Apresentação: ",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    },
-    {
-      "numero": 14,
-      "tipo": "ItemPregao não agrupado",
-      "disputaPorValorUnitario": "Sim",
-      "possuiOrcamentoSigiloso": "Não",
-      "identificador": "14",
-      "descricao": "Picloram",
-      "criterioJulgamento": "Menor Preço",
-      "homologado": "Não",
-      "situacaoEnvioResultado": "None",
-      "numeroSessaoJulgHab": 1,
-      "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-      "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-      "situacao": "Ativo",
-      "fase": "Disputa Encerrada",
-      "quantidadeSolicitada": 250,
-      "criterioValor": "Valor estimado",
-      "valorEstimado": null,
-      "valorEstimadoUnitario": 51.3,
-      "valorEstimadoTotal": 12825.0,
-      "priorizarAbertura": "Não",
-      "julgHabEncerrada": "Não",
-      "qtdeItensDoGrupo": null,
-      "qtdeAceitaSrp": null,
-      "qtdeAdjudicadaSrp": null,
-      "prazosFaseRecursal": null,
-      "propostasItem": [
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 12825.0,
-                "valorUnitario": 51.3
-              },
-              "valorInformado": 51.3
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7000.0,
-                "valorUnitario": 28.0
-              },
-              "valorInformado": 28.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "CAMP D / PRETISS",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "50630988000140",
-            "nome": "AGRO ZAIDAN COMERCIAL LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": "E",
-          "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de proposta atualizadas e documentação necessária para análise, incluindo a prevista no item 4 e subitens do Anexo I  (Termo de referência) do Edital. Prazo para envio:\n",
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Sim",
-          "dataHoraLimiteAtendimento": "2024-02-20T15:30:00",
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 200,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "pao brioche",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 15000.0,
-                "valorUnitario": 60.0
-              },
-              "valorInformado": 60.0
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição do valor ofertado, já que a empresa foi a única participante do item e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 11,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "11",
+    "descricao": "Broa De Fubá",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Fracassado",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 1700,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 34.22,
+    "valorEstimadoTotal": 58174.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 58140.0,
+              "valorUnitario": 34.2
             },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7192.8,
-                "valorUnitario": 28.7712
-              },
-              "valorInformado": 28.7712
+            "valorInformado": 34.2
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 58140.0,
+              "valorUnitario": 34.2
             },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
+            "valorInformado": 34.2
           },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "GALOP M / ADAMA ",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "09590203000150",
-            "nome": "PLANTIUN DISTRIBUIDORA LTDA",
-            "tipo": "Pessoa Jurídica"
+          "valorSugeridoNegociacao": {
+            "valorCalculado": {
+              "valorTotal": 56304.0,
+              "valorUnitario": 33.12
+            },
+            "valorInformado": 33.12
           },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+          "valorNegociado": {
+            "valorCalculado": {
+              "valorTotal": 56304.0,
+              "valorUnitario": 33.12
+            },
+            "valorInformado": 33.12
+          }
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 12825.0,
-                "valorUnitario": 51.3
-              },
-              "valorInformado": 51.3
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 7200.0,
-                "valorUnitario": 28.8
-              },
-              "valorInformado": 28.8
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Norton ",
-          "modeloVersao": "Nortox",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "43979792000109",
-            "nome": "JS AZZURI COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
+        "quantidadeOfertada": 1700,
+        "descricaoDetalhada": null,
+        "situacao": "Fornecedor inabilitado",
+        "marcaFabricante": "propria",
+        "modeloVersao": "broa de fuba",
+        "situacaoUltimaNegociacao": "E",
+        "justificativaUltimaNegociacao": "Conforme valor registrado em sua proposta enviada",
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51960596000102",
+          "nome": "51.960.596 RUAN PABLO FERNANDES MARQUES",
+          "tipo": "Pessoa Jurídica"
         },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 12800.0,
-                "valorUnitario": 51.2
-              },
-              "valorInformado": 51.2
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 12725.0,
-                "valorUnitario": 50.9
-              },
-              "valorInformado": 50.9
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Galop-M / Adama",
-          "modeloVersao": "Balde 20L",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "15153524000190",
-            "nome": "SANIGRAN LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 12750.0,
-                "valorUnitario": 51.0
-              },
-              "valorInformado": 51.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 12750.0,
-                "valorUnitario": 51.0
-              },
-              "valorInformado": 51.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "Veg",
-          "modeloVersao": "Picloram Composição: Associado Ao Ácido 2,4-D , Sa",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "51394411000140",
-            "nome": "BPG SOLUCOES LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        },
-        {
-          "valores": {
-            "valorPropostaInicial": {
-              "valorCalculado": {
-                "valorTotal": 15000.0,
-                "valorUnitario": 60.0
-              },
-              "valorInformado": 60.0
-            },
-            "valorPropostaInicialOuLances": {
-              "valorCalculado": {
-                "valorTotal": 15000.0,
-                "valorUnitario": 60.0
-              },
-              "valorInformado": 60.0
-            },
-            "valorSugeridoNegociacao": null,
-            "valorNegociado": null
-          },
-          "quantidadeOfertada": 250,
-          "descricaoDetalhada": null,
-          "situacao": "None",
-          "marcaFabricante": "CAMP D/UPL",
-          "modeloVersao": "LITRO",
-          "situacaoUltimaNegociacao": null,
-          "justificativaUltimaNegociacao": null,
-          "situacaoNaFaseFechadaModoAbertoFechado": null,
-          "participante": {
-            "identificacao": "11163447000106",
-            "nome": "TECA TECNOLOGIA E COMERCIO LTDA",
-            "tipo": "Pessoa Jurídica"
-          },
-          "situacaoUltimaSolicitacaoAnexos": null,
-          "justificativaUltimaSolicitacaoAnexos": null,
-          "declaracaoMeEpp": "Sim",
-          "canalChatAberto": "Não",
-          "dataHoraLimiteAtendimento": null,
-          "motivoDesclassificacao": null,
-          "situacaoNaDisputaFinal": null,
-          "situacaoNoDesempateMeEpp": null
-        }
-      ]
-    }
-  ]
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Prezado licitante, solicitamos o envio da proposta atualizada. Se possível, gostaríamos de pedir negociação para a diminuição do valor ofertado, já que a empresa foi a única participante do item e não ofereceu a redução de valores no decorrer da fase de lances.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-02-29T16:30:00",
+        "motivoDesclassificacao": "A licitante não enviou documentos válidos para atender aos seguintes subitens do Termo de Referência : 8.19; 8.23; 8.24.2; 8.28 e 8.28.1.1. ",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  }
+]
 
 export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [compra, setCompra] = useState<Compra>();

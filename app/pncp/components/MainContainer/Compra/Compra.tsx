@@ -1482,7 +1482,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [existeResultado, setExisteResultado] = useState(false)
     const [compraNumero, setCompraNumero] = useState('')
     //const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
-    const [dadosCnetMobile, setDadosCnetMobile] = useState([])
+    const [dadosCnetMobile, setDadosCnetMobile] = useState()
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     const [isActivated, setIsActivated] = useState(false)
 

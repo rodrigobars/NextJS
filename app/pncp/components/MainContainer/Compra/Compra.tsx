@@ -3083,8 +3083,8 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [resultados, setResultados] = useState<ResultadoCompraItem[]>([])
     const [existeResultado, setExisteResultado] = useState(false)
     const [compraNumero, setCompraNumero] = useState('')
-    //const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
-    const [dadosCnetMobile, setDadosCnetMobile] = useState([])
+    const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
+    //const [dadosCnetMobile, setDadosCnetMobile] = useState([])
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     const [isActivated, setIsActivated] = useState(false)
 
@@ -3250,7 +3250,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                                 <Button color="primary" onPress={
                                     () => {
                                         onClose()
-                                        startFetchingCnetMobile()
+                                        //startFetchingCnetMobile()
                                     }
                                 }>
                                     Iniciar

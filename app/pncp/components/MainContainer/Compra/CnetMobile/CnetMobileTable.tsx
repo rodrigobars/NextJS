@@ -4,7 +4,7 @@ import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
 
 export default function CnetMobileTable( { dados } ) {
-    console.log(dados.propostas)
+    //console.log(dados.propostas)
 
     const tipo = (tipo) => {
         if (tipo == "Fornecedor habilitado") return ('success')
@@ -34,7 +34,7 @@ export default function CnetMobileTable( { dados } ) {
                 </TableHeader>
                 <TableBody emptyContent={"No rows to display."}>
                     {
-                        dados.propostas
+                        dados[0]
                             .sort((a, b) => a.numero - b.numero)
                             .map((proposta, propostaIndex) =>  (
                             <TableRow key={propostaIndex}>

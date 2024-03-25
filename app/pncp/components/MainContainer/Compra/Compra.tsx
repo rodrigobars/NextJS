@@ -126,7 +126,7 @@ function extrairNumeroDaCompra(url: string): string | null {
     return match ? match[1] : null;
     }
 
-const dados = [
+const dadosNaoAgrupados = [
   {
     "numero": 3,
     "tipo": "ItemPregao não agrupado",
@@ -1475,14 +1475,2037 @@ const dados = [
   }
 ]
 
+const dadosAgrupados = [
+  {
+    "numero": -2,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G3",
+    "descricao": "Grupo 3",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 34992.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": 6,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 34992.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 34992.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 30690.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o Grupo 3;\n- Catálogo dos itens;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:39:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 35805.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 35805.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 34860.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": -1,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G4",
+    "descricao": "Grupo 4",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 8491.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": 7,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 8491.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 8491.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 8438.5,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o Grupo 4;\n- Catálogo dos itens;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:40:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 8491.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 8491.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 8491.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 12,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "12",
+    "descricao": "Ácido nítrico",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 38,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 203.02,
+    "valorEstimadoTotal": 7714.76,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 7714.0,
+              "valorUnitario": 203.0
+            },
+            "valorInformado": 203.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 7544.52,
+              "valorUnitario": 198.54
+            },
+            "valorInformado": 198.54
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 38,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "EXODO/EXODO",
+        "modeloVersao": "65% PA FR. 1 LITRO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n\n- Proposta atualizada para o item  12;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:46:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 7714.76,
+              "valorUnitario": 203.02
+            },
+            "valorInformado": 203.02
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 7620.9,
+              "valorUnitario": 200.55
+            },
+            "valorInformado": 200.55
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 38,
+        "descricaoDetalhada": "Ácido nítrico - Ácido Nítrico Aspecto Físico: Líquido Límpido,Incolor À Amarelado,Odor Sufocante , Fórmula Química: Hno3 , Peso Molecular: 63,01 G/MOL, Grau De Pureza: Teor Mínimo De 65% , Característica Adicional: Reagente P.A. , Número De Referência Química: Cas 7697-37-2",
+        "situacao": "None",
+        "marcaFabricante": "ÊXODO",
+        "modeloVersao": "AN06837RA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "59403410000126",
+          "nome": "INTERJET COMERCIAL LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 7714.76,
+              "valorUnitario": 203.02
+            },
+            "valorInformado": 203.02
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 7714.76,
+              "valorUnitario": 203.02
+            },
+            "valorInformado": 203.02
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 38,
+        "descricaoDetalhada": "Ácido nítrico - Ácido Nítrico Aspecto Físico: Líquido Límpido,Incolor À Amarelado,Odor Sufocante , Fórmula Química: Hno3 , Peso Molecular: 63,01 G/MOL, Grau De Pureza: Teor Mínimo De 65% , Característica Adicional: Reagente P.A. , Número De Referência Química: Cas 7697-37-2",
+        "situacao": "None",
+        "marcaFabricante": "EXODO",
+        "modeloVersao": "EXODO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": -4,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G1",
+    "descricao": "Grupo 1",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 35557.94,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": 8,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 44445.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 44445.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 19810.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "39512034000109",
+          "nome": "SAL R  COMERCIAL LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o Grupo 1 (contendo o valor negociado do item 3);\n- Catálogo dos itens; \n- CTF (FTE-Categoria: Indústria Química; Código: 15);\n- Documentos que comprovem a exequibilidade dos itens 4,5,7 e 8.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2024-03-20T14:00:00",
+        "motivoDesclassificacao": "Não atende ao item 4.1.1. do Termo de Referência nº 10/2024, parte integrante do Edital.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 106673.82,
+              "valorUnitario": null
+            },
+            "valorInformado": 106673.82
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 21408.73,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "08238866000147",
+          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o Grupo 1 (contendo o valor negociado do item 3);\n- Catálogo dos itens;\n- CTF do fabricante;\n- Documentos que comprovem a exequibilidade do item 8.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:33:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 33868.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 33868.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 33868.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 36189.94,
+              "valorUnitario": null
+            },
+            "valorInformado": 36189.94
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 35554.46,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 35557.94,
+              "valorUnitario": null
+            },
+            "valorInformado": 35557.94
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 35557.94,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": -3,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G2",
+    "descricao": "Grupo 2",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 10215.43,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": 3,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 17800.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 17800.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 8635.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "39512034000109",
+          "nome": "SAL R  COMERCIAL LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": "Não atende ao item 4.1.1 do Termo de Referência nº 10/2024, parte integrante do Edital.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 30646.29,
+              "valorUnitario": null
+            },
+            "valorInformado": 30646.29
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 8826.76,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "08238866000147",
+          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o Grupo 2;\n- Catálogo dos itens;\n- CTF do fabricante.\n",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:34:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 9694.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 9694.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 9694.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 10215.43,
+              "valorUnitario": null
+            },
+            "valorInformado": 10215.43
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 10215.43,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 13,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "13",
+    "descricao": "Ácido benzóico",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 1000,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 0.16,
+    "valorEstimadoTotal": 160.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 160.0,
+              "valorUnitario": 0.16
+            },
+            "valorInformado": 0.16
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 160.0,
+              "valorUnitario": 0.16
+            },
+            "valorInformado": 0.16
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 1000,
+        "descricaoDetalhada": "Ácido benzóico - Aspecto Físico: Pó Branco Ou Cristal Incolor, C/ Odor Forte, Fórmula Química: C6h5cooh, Peso Molecular: 122,12 G/MOL, Grau De Pureza: Pureza Mínima De 99,5%, Característica Adicional: Reagente P.A., Número De Referência Química: Cas 65-85-0,",
+        "situacao": "None",
+        "marcaFabricante": "EXODO",
+        "modeloVersao": "AB08127RA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 13;\n- Catálogo do item;\n- CTF do fabricante. ",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:12:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": "5",
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 160.0,
+              "valorUnitario": 0.16
+            },
+            "valorInformado": 0.16
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 160.0,
+              "valorUnitario": 0.16
+            },
+            "valorInformado": 0.16
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 1000,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "EXODO/EXODO",
+        "modeloVersao": "PA FR. 500 GR",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": "5",
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 50000.0,
+              "valorUnitario": 50.0
+            },
+            "valorInformado": 50.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 50000.0,
+              "valorUnitario": 50.0
+            },
+            "valorInformado": 50.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 1000,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PROQUIMIOS",
+        "modeloVersao": "FRASCOS DE 1000 GRAMAS",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 15,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "15",
+    "descricao": "Ácido fórmico",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 3,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 257.88,
+    "valorEstimadoTotal": 773.64,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 773.64,
+              "valorUnitario": 257.88
+            },
+            "valorInformado": 257.88
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 764.22,
+              "valorUnitario": 254.74
+            },
+            "valorInformado": 254.74
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 3,
+        "descricaoDetalhada": "Ácido fórmico - Ácido Fórmico Aspecto Físico: Líquido Incolor, Odor Penetrante , Composição Química: Hcooh , Peso Molecular: 46,03 G/MOL, Teor De Pureza: Pureza Mínima De 98% , Característica Adicional: Reagente P.A. Acs , Número De Referência Química: Cas 64-18-6",
+        "situacao": "None",
+        "marcaFabricante": "PERFYLTECH",
+        "modeloVersao": "RP-001100",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "59403410000126",
+          "nome": "INTERJET COMERCIAL LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 15;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:16:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 765.0,
+              "valorUnitario": 255.0
+            },
+            "valorInformado": 255.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 765.0,
+              "valorUnitario": 255.0
+            },
+            "valorInformado": 255.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 3,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PROQUIMIOS",
+        "modeloVersao": "FRASCOS DE 1 LITRO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 14,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "14",
+    "descricao": "Ácido bórico",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 9500,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 0.04,
+    "valorEstimadoTotal": 380.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 380.0,
+              "valorUnitario": 0.04
+            },
+            "valorInformado": 0.04
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 380.0,
+              "valorUnitario": 0.04
+            },
+            "valorInformado": 0.04
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 9500,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "perfyltech",
+        "modeloVersao": "perfyltech",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação: \n- Proposta atualizada para o item 14;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:15:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": "5",
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 380.0,
+              "valorUnitario": 0.04
+            },
+            "valorInformado": 0.04
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 380.0,
+              "valorUnitario": 0.04
+            },
+            "valorInformado": 0.04
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 9500,
+        "descricaoDetalhada": "Ácido bórico - Ácido Bórico Aspecto Físico: Cristal Incolor Ou Pó/Grânulo Branco, Inodoro , Peso Molecular: 61,83 G/MOL, Composição Química: H3bo3 , Grau De Pureza: Pureza Mínima De 99,5% , Característica Adicional: Reagente P.A. , Número De Referência Química: Cas 10043-35-3",
+        "situacao": "None",
+        "marcaFabricante": "DINAMICA ",
+        "modeloVersao": "1253",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": "5",
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 380000.0,
+              "valorUnitario": 40.0
+            },
+            "valorInformado": 40.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 380000.0,
+              "valorUnitario": 40.0
+            },
+            "valorInformado": 40.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 9500,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PROQUIMIOS",
+        "modeloVersao": "FRASCOS DE 1000 GRAMAS",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 30,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "30",
+    "descricao": "Cafeína",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 2500,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 0.79,
+    "valorEstimadoTotal": 1975.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 1975.0,
+              "valorUnitario": 0.79
+            },
+            "valorInformado": 0.79
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 1975.0,
+              "valorUnitario": 0.79
+            },
+            "valorInformado": 0.79
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2500,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "perfyltech",
+        "modeloVersao": "perfyltech",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 30;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:17:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 16,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "16",
+    "descricao": "Ácido fórmico",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Sim",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Deserto",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 3,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 78.0,
+    "valorEstimadoTotal": 234.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": []
+  },
+  {
+    "numero": 31,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "31",
+    "descricao": "Cloreto de tionila",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 2,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 1309.46,
+    "valorEstimadoTotal": 2618.92,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 2618.92,
+              "valorUnitario": 1309.46
+            },
+            "valorInformado": 1309.46
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2618.92,
+              "valorUnitario": 1309.46
+            },
+            "valorInformado": 1309.46
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "perfyltech",
+        "modeloVersao": "perfyltech",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 31;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:18:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 34,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "34",
+    "descricao": "Fósforo",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 2000,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 1.42,
+    "valorEstimadoTotal": 2840.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 8520.0,
+              "valorUnitario": 4.26
+            },
+            "valorInformado": 4.26
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2240.0,
+              "valorUnitario": 1.12
+            },
+            "valorInformado": 1.12
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2000,
+        "descricaoDetalhada": "Fósforo - Fósforo Aspecto Físico: Amorfo, Pó Vermelho, Inodoro , Fórmula Química: P , Peso Molecular: 30,97 G/MOL, Grau De Pureza: Pureza Mínima De 97% , Número De Referência Química: Cas 7723-14-0",
+        "situacao": "None",
+        "marcaFabricante": "DINÃMICA",
+        "modeloVersao": "DINÂMICA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "08238866000147",
+          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 34;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:37:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 2840.0,
+              "valorUnitario": 1.42
+            },
+            "valorInformado": 1.42
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2440.0,
+              "valorUnitario": 1.22
+            },
+            "valorInformado": 1.22
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2000,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "DINAMICA/DINAMICA",
+        "modeloVersao": "EMBALAGEM MINIMA COM 500 GRAMAS",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 2840.0,
+              "valorUnitario": 1.42
+            },
+            "valorInformado": 1.42
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2840.0,
+              "valorUnitario": 1.42
+            },
+            "valorInformado": 1.42
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2000,
+        "descricaoDetalhada": "Fósforo - Fósforo Aspecto Físico: Amorfo, Pó Vermelho, Inodoro , Fórmula Química: P , Peso Molecular: 30,97 G/MOL, Grau De Pureza: Pureza Mínima De 97% , Número De Referência Química: Cas 7723-14-0",
+        "situacao": "None",
+        "marcaFabricante": "DINAMICA ",
+        "modeloVersao": "1660",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 1600000.0,
+              "valorUnitario": 800.0
+            },
+            "valorInformado": 800.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 1600000.0,
+              "valorUnitario": 800.0
+            },
+            "valorInformado": 800.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2000,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PROQUIMIOS",
+        "modeloVersao": "FRASCOS DE 500 GRAMAS",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 32,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "32",
+    "descricao": "Clorofórmio",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 200,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 18.02,
+    "valorEstimadoTotal": 3604.0,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 3604.0,
+              "valorUnitario": 18.02
+            },
+            "valorInformado": 18.02
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2000.0,
+              "valorUnitario": 10.0
+            },
+            "valorInformado": 10.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 200,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "perfyltech",
+        "modeloVersao": "perfyltech",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 32;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:19:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 10812.0,
+              "valorUnitario": 54.06
+            },
+            "valorInformado": 54.06
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 2194.0,
+              "valorUnitario": 10.97
+            },
+            "valorInformado": 10.97
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 200,
+        "descricaoDetalhada": "Clorofórmio - Clorofórmio Aspecto Físico: Líquido Límpido, Incolor, Odor Agradável , Peso Molecular: 120,38 G/MOL, Fórmula Química: Cdcl3 (Clorofórmio Deuterado) , Grau De Pureza: Pureza Isotópica De 99,8 Atom % D , Característica Adicional: Com 0.03 % (V/V) Tms , Número De Referência Química: Cas 865-49-6",
+        "situacao": "None",
+        "marcaFabricante": "DINÂMICA",
+        "modeloVersao": "DINÂMICA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "08238866000147",
+          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 3604.0,
+              "valorUnitario": 18.02
+            },
+            "valorInformado": 18.02
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 3604.0,
+              "valorUnitario": 18.02
+            },
+            "valorInformado": 18.02
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 200,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "SIGMA/MERCK",
+        "modeloVersao": "CÓD. 530735-100G",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "71443667000107",
+          "nome": "ORBITAL PRODUTOS PARA LABORATORIOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 35,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "35",
+    "descricao": "Hidróxido de amônio",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 20,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 44.96,
+    "valorEstimadoTotal": 899.2,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 2000.0,
+              "valorUnitario": 100.0
+            },
+            "valorInformado": 100.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 760.0,
+              "valorUnitario": 38.0
+            },
+            "valorInformado": 38.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 20,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": "sal-r",
+        "modeloVersao": "1",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "39512034000109",
+          "nome": "SAL R  COMERCIAL LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": "Não atende ao item 4.1.1 do Termo de Referência nº 10/2024, parte integrante do Edital.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 2697.6,
+              "valorUnitario": 134.88
+            },
+            "valorInformado": 134.88
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 799.0,
+              "valorUnitario": 39.95
+            },
+            "valorInformado": 39.95
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 20,
+        "descricaoDetalhada": "Hidróxido de amônio - Hidróxido De Amônio Aspecto Físico: Líquido Límpido, Incolor, Volátil, De Odor Acre , Peso Molecular: 35,05 G/MOL, Fórmula Química: Nh4oh , Grau De Pureza: Teor De Nh3 Entre 28 E 30% , Característica Adicional: Em Solução Aquosa, Reagente P.A. Acs Iso , Número De Referência Química: Cas 1336-21-6",
+        "situacao": "None",
+        "marcaFabricante": "DINÂMICA",
+        "modeloVersao": "DINÂMICA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "08238866000147",
+          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n\n- Proposta atualizada para o item 35;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T16:45:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 860.0,
+              "valorUnitario": 43.0
+            },
+            "valorInformado": 43.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 860.0,
+              "valorUnitario": 43.0
+            },
+            "valorInformado": 43.0
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 20,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "PROQUIMIOS",
+        "modeloVersao": "FRASCOS DE 1 LITRO",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "45914544000105",
+          "nome": "PROQUIMIOS CHEMICALS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 899.2,
+              "valorUnitario": 44.96
+            },
+            "valorInformado": 44.96
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 899.2,
+              "valorUnitario": 44.96
+            },
+            "valorInformado": 44.96
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 20,
+        "descricaoDetalhada": "Hidróxido de amônio - Hidróxido De Amônio Aspecto Físico: Líquido Límpido, Incolor, Volátil, De Odor Acre , Peso Molecular: 35,05 G/MOL, Fórmula Química: Nh4oh , Grau De Pureza: Teor De Nh3 Entre 28 E 30% , Característica Adicional: Em Solução Aquosa, Reagente P.A. Acs Iso , Número De Referência Química: Cas 1336-21-6",
+        "situacao": "None",
+        "marcaFabricante": "EXODO",
+        "modeloVersao": "HA09815RA",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "32578926000155",
+          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 33,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "33",
+    "descricao": "Formamida",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Não",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Disputa Encerrada",
+    "quantidadeSolicitada": 2,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 295.33,
+    "valorEstimadoTotal": 590.66,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Não",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 590.6,
+              "valorUnitario": 295.3
+            },
+            "valorInformado": 295.3
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 590.6,
+              "valorUnitario": 295.3
+            },
+            "valorInformado": 295.3
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": 2,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": "perfyltech",
+        "modeloVersao": "perfyltech",
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "37771209000169",
+          "nome": "ERINALDO FIGUEIREDO DA SILVA 56865724534",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da seguinte documentação:\n- Proposta atualizada para o item 33;\n- Catálogo do item;\n- CTF do fabricante.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Sim",
+        "dataHoraLimiteAtendimento": "2024-03-20T17:19:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  },
+  {
+    "numero": 36,
+    "tipo": "ItemPregao não agrupado",
+    "disputaPorValorUnitario": "Sim",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "36",
+    "descricao": "Paracetamol (acetaminofeno)",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Sim",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Deserto",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": 125,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": 2.39,
+    "valorEstimadoTotal": 298.75,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": null,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": null,
+    "propostasItem": []
+  }
+]
+
 export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [compra, setCompra] = useState<Compra>();
     const [itens, setItens] = useState();
     const [resultados, setResultados] = useState<ResultadoCompraItem[]>([])
     const [existeResultado, setExisteResultado] = useState(false)
     const [compraNumero, setCompraNumero] = useState('')
-    //const [dadosCnetMobile, setDadosCnetMobile] = useState([dados])
-    const [dadosCnetMobile, setDadosCnetMobile] = useState()
+    const [dadosCnetMobile, setDadosCnetMobile] = useState([dadosAgrupados])
+    //const [dadosCnetMobile, setDadosCnetMobile] = useState()
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     const [isActivated, setIsActivated] = useState(false)
 
@@ -1648,7 +3671,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                                 <Button color="primary" onPress={
                                     () => {
                                         onClose()
-                                        startFetchingCnetMobile()
+                                        //startFetchingCnetMobile()
                                     }
                                 }>
                                     Iniciar

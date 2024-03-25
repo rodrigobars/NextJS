@@ -34,8 +34,8 @@ export default function CnetMobileTable( { dados } ) {
                 </TableHeader>
                 <TableBody emptyContent={"No rows to display."}>
                     {
-                        //dados[0]
-                        dados.propostas
+                        //dados.propostas
+                        dados[0]
                             .sort((a, b) => a.numero - b.numero)
                             .map((proposta, propostaIndex) =>  (
                             <TableRow key={propostaIndex}>
@@ -43,7 +43,7 @@ export default function CnetMobileTable( { dados } ) {
                                 <TableCell
                                     className='animate-none text-center'
                                     >
-                                    <Chip variant='flat' color='primary' size='lg'>{proposta.numero}</Chip>
+                                    <Chip variant='flat' color={proposta.tipo=='Grupo' ? 'default' : 'primary'} size='lg'>{proposta.identificador}</Chip>
                                 </TableCell>
 
                                 <TableCell
@@ -145,3 +145,12 @@ export default function CnetMobileTable( { dados } ) {
         </div>
     )
 }
+
+
+// const companys = document.getElementsByClassName('ng-trigger-animationRotate180')
+
+// const a = document.getElementsByClassName('header')
+
+// a[0] <- chat
+// a[1] <- proposta
+// a[2] <- anexos

@@ -11,3 +11,5 @@ e automações como:
 - análise de dados;
 - elaboração de documentos como atas de registro de preço;
 - textos para publicação em diário oficial.
+
+![](ss/editais.png)

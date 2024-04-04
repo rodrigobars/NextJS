@@ -7,7 +7,8 @@ export default function CnetMobileTable( { dados } ) {
     console.log(dados.propostas)
 
     const tipo = (tipo) => {
-        if (tipo == "Fornecedor habilitado") return ('success')
+        if (tipo == "Fornecedor habilitado") return ('primary')
+        else if (tipo == "Proposta adjudicada") return ('success')
         else if (tipo == "Proposta desclassificada") return ('warning')
         else if (tipo == "Fornecedor inabilitado") return ('danger')
         else return ('default')
@@ -16,7 +17,7 @@ export default function CnetMobileTable( { dados } ) {
     return (
         <div className='sm gap-5 overflow-x-auto max-w-full'>
             <Table
-                selectionMode="single"
+                //selectionMode="single"
                 color='secondary'
                 isHeaderSticky
                 topContentPlacement="outside"
@@ -34,8 +35,8 @@ export default function CnetMobileTable( { dados } ) {
                 </TableHeader>
                 <TableBody emptyContent={"No rows to display."}>
                     {
-                        //dados.propostas
-                        dados[0]
+                        //dados[0]
+                        dados.propostas
                             .sort((a, b) => a.numero - b.numero)
                             .map((proposta, propostaIndex) =>  (
                             <TableRow key={propostaIndex}>
@@ -94,23 +95,24 @@ export default function CnetMobileTable( { dados } ) {
                                             proposta.propostasItem
                                                 .sort((a, b) => a.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal - b.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal)
                                                 .map((item, itemIndex) => (
-                                                    <Card key={itemIndex} radius="lg" shadow='md' isPressable
+
+                                                    <Card key={itemIndex} radius="lg" shadow='md'
                                                         className='w-[300px] bg-neutral-800'>
                                                         <CardHeader className='flex justify-between'>
                                                             <div>
-                                                                <p className="text-small truncate text-green-400 animate-pulse">
-                                                                    {item.participante.nome.length > 25 ? `${item.participante.nome.slice(0, 25)}...` : item.participante.nome}
+                                                                <p className="text-small">
+                                                                    Razão Social: {item.participante.nome}
                                                                 </p>
-                                                                <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
+                                                                <p className="text-small text-default-500 text-left">
+                                                                    Cnpj: {formatarCnpj(item.participante.identificacao)}
+                                                                </p>
                                                             </div>
                                                             <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
                                                         </CardHeader>
                                                         <Divider/>
                                                         <CardBody>
                                                             <div>
-                                                                <p><strong>tipo: </strong>{item.participante.tipo}</p>
-                                                                <p><strong>declaracaoMeEpp: </strong>{item.declaracaoMeEpp}</p>
-                                                                <p><strong>quantidade ofertada: </strong>{item.quantidadeOfertada}</p>
+                                                                <p><strong>Quantidade: </strong>{item.quantidadeOfertada}</p>
                                                                 <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
                                                                 <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
                                                                 {(item.valorNegociado) &&
@@ -118,9 +120,6 @@ export default function CnetMobileTable( { dados } ) {
                                                                 }
                                                                 <p><strong>Marca: </strong>{item.marcaFabricante}</p>
                                                                 <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-                                                                <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p>
-                                                                <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
-                                                                <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
                                                             </div>
                                                         </CardBody>
                                                         {(item.situacao != 'None') && (
@@ -132,6 +131,45 @@ export default function CnetMobileTable( { dados } ) {
                                                             </>
                                                         )}
                                                     </Card>
+
+                                                    // <Card key={itemIndex} radius="lg" shadow='md' isPressable
+                                                    //     className='w-[300px] bg-neutral-800'>
+                                                    //     <CardHeader className='flex justify-between'>
+                                                    //         <div>
+                                                    //             <p className="text-small truncate text-green-400 animate-pulse">
+                                                    //                 {item.participante.nome.length > 25 ? `${item.participante.nome.slice(0, 25)}...` : item.participante.nome}
+                                                    //             </p>
+                                                    //             <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
+                                                    //         </div>
+                                                    //         <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
+                                                    //     </CardHeader>
+                                                    //     <Divider/>
+                                                    //     <CardBody>
+                                                    //         <div>
+                                                    //             <p><strong>tipo: </strong>{item.participante.tipo}</p>
+                                                    //             <p><strong>declaracaoMeEpp: </strong>{item.declaracaoMeEpp}</p>
+                                                    //             <p><strong>quantidade ofertada: </strong>{item.quantidadeOfertada}</p>
+                                                    //             <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
+                                                    //             <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
+                                                    //             {(item.valorNegociado) &&
+                                                    //                 <p>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
+                                                    //             }
+                                                    //             <p><strong>Marca: </strong>{item.marcaFabricante}</p>
+                                                    //             <p><strong>Modelo: </strong>{item.modeloVersao}</p>
+                                                    //             <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p>
+                                                    //             <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
+                                                    //             <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
+                                                    //         </div>
+                                                    //     </CardBody>
+                                                    //     {(item.situacao != 'None') && (
+                                                    //         <>
+                                                    //             <Divider/>
+                                                    //             <CardFooter className='flex justify-center'>
+                                                    //                 <Chip variant='flat' color={tipo(item.situacao)}>{item.situacao}</Chip>
+                                                    //             </CardFooter>
+                                                    //         </>
+                                                    //     )}
+                                                    // </Card>
                                                 ))
                                         }
                                     </div>
@@ -147,10 +185,28 @@ export default function CnetMobileTable( { dados } ) {
 }
 
 
-// const companys = document.getElementsByClassName('ng-trigger-animationRotate180')
 
-// const a = document.getElementsByClassName('header')
 
-// a[0] <- chat
-// a[1] <- proposta
-// a[2] <- anexos
+/////////// Requisição de itens de um grupo
+
+// https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-fase-externa/public/v1/compras/15018205001052023/itens/-3/itens-grupo?tamanhoPagina=10000&pagina=0
+
+/////////// PERFEIÇÃO!!!!!!
+
+// const companys = document.getElementsByClassName("ng-trigger-animationRotate180");
+// const filteredElements = Array.from(companys).filter((element, index) => index > 0);
+// filteredElements.forEach((item) => item.click())
+
+// const buttonsProposta = Array.from(document.querySelectorAll('button'))
+//   .filter(el => el.textContent === 'Proposta');
+
+// let delay = 0;
+
+// // Loop para clicar nos botões com delay individual
+// for (const button of buttonsProposta) {
+//   setTimeout(() => {
+//     button.click();
+//   }, delay);
+
+//   delay += 500; // Aumenta o delay para o próximo botão
+// }

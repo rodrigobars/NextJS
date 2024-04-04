@@ -1,6 +1,6 @@
 'use client'
 
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination } from '@nextui-org/react';
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell } from '@nextui-org/react';
 import React from 'react'
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
 import { formatarCnpj } from '../../../../../components/Utils/Utils'
@@ -40,22 +40,11 @@ function limitarString(str, comprimentoMaximo) {
 }
     
 const TabelaResultados: React.FC = ( { resultados }: ResultadoCompraItem[] ) => {
-    const [page, setPage] = React.useState(1);
-    const rowsPerPage = 10;
 
     // UseEffect para observar as mudanças nas props e atualizar o estado interno
     React.useEffect(() => {
         console.log(resultados)
     }, [resultados]);
-
-    const pages = Math.ceil(resultados.length / rowsPerPage);
-
-    const resultadosPage = React.useMemo(() => {
-        const start = (page - 1) * rowsPerPage;
-        const end = start + rowsPerPage;
-    
-        return resultados.slice(start, end);
-    }, [page]);
 
     return (
         <div className='sm gap-5'>
@@ -63,26 +52,13 @@ const TabelaResultados: React.FC = ( { resultados }: ResultadoCompraItem[] ) => 
                 color='secondary'
                 selectionMode="single"
                 aria-label="Example static collection table"
-                bottomContent={
-                    <div className="flex w-full justify-center">
-                        <Pagination
-                            isCompact
-                            showControls
-                            showShadow
-                            color="secondary"
-                            page={page}
-                            total={pages}
-                            onChange={(page) => setPage(page)}
-                        />
-                    </div>
-                }
                 classNames={{
                     wrapper: "min-h-[150px]",
                 }}>
                 <TableHeader>
                     <TableColumn style={{ width: '3%' }}>Item</TableColumn>
                     <TableColumn style={{ width: '15%' }}>Cnpj/Cpf</TableColumn>
-                    <TableColumn style={{ width: '39%' }}>Razão Social</TableColumn>
+                    <TableColumn style={{ width: '29%' }}>Razão Social</TableColumn>
                     <TableColumn style={{ width: '3%' }}>Quantidade</TableColumn>
                     <TableColumn style={{ width: '12%' }}>Valor unitário</TableColumn>
                     <TableColumn style={{ width: '12%' }}>Valor total</TableColumn>
@@ -90,9 +66,11 @@ const TabelaResultados: React.FC = ( { resultados }: ResultadoCompraItem[] ) => 
                     <TableColumn style={{ width: '3%' }}>Porte</TableColumn>
                     <TableColumn style={{ width: '5%' }}>País</TableColumn>
                     <TableColumn style={{ width: '5%' }}>Situação</TableColumn>
+                    <TableColumn style={{ width: '5%' }}>Data Resultado</TableColumn>
+                    <TableColumn style={{ width: '5%' }}>Data Atualização</TableColumn>
                 </TableHeader>
                 <TableBody emptyContent={"No rows to display."}>
-                    {resultadosPage.map((item, index) => (
+                    {resultados.map((item, index) => (
                         <TableRow key={index}>
                             <TableCell className='animate-none text-center'>
                                 <p className='font-bold'>{item.numeroItem}</p>
@@ -119,10 +97,16 @@ const TabelaResultados: React.FC = ( { resultados }: ResultadoCompraItem[] ) => 
                                 {item.porteFornecedorNome}
                             </TableCell>
                             <TableCell className='text-left'>
-                                {<img src={`https://flagsapi.com/${item.codigoPais.slice(0, 2)}/flat/64.png`} alt={`Bandeira do ${item.codigoPais}`} />}
+                                {item.codigoPais}
                             </TableCell>
                             <TableCell className='text-left text-small'>
                                 {item.situacaoCompraItemResultadoNome}
+                            </TableCell>
+                            <TableCell className='text-left text-small'>
+                                {item.dataResultado}
+                            </TableCell>
+                            <TableCell className='text-left text-small'>
+                                {item.dataAtualizacao}
                             </TableCell>
                         </TableRow>
                     ))}

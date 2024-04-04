@@ -15,21 +15,21 @@ e automações como:
   # ScreenShots
 
 
-  **Certidões do tribunal de contas da união em massa**
+**Certidões do tribunal de contas da união em massa**
 
 ![](ss/certidoes.png)
 
 
-  **Editais de licitações dado uma uasg**
+**Editais de licitações dado uma uasg**
 
 ![](ss/editais.png)
 
 
-  **Itens de uma licitação**
+**Itens de uma licitação**
 
 ![](ss/itens.png)
 
 
-  **Resumo do resultado final da licitação**
+**Resumo do resultado final da licitação**
 
 ![](ss/resumo.png)

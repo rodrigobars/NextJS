@@ -12,4 +12,12 @@ e automações como:
 - elaboração de documentos como atas de registro de preço;
 - textos para publicação em diário oficial.
 
+  # ScreenShots
+
+![](ss/certidoes.png)
+
 ![](ss/editais.png)
+
+![](ss/itens.png)
+
+![](ss/resumo.png)

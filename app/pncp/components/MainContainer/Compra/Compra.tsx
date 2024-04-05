@@ -1477,1882 +1477,44 @@ const dadosNaoAgrupados = [
 
 const dadosAgrupados = [
   {
-    "numero": -17,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G2",
-    "descricao": "Grupo 2",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 481.0,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 2,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 98.32,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. \n",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 100.27,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 166.81,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2200.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 2200.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 220.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 237.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 298.09,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 445.39,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "22627453000185",
-          "nome": "A C L ASSISTENCIA E COMERCIO DE PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 481.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 481.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 445.5,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 449.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 449.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 449.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -14,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G5",
-    "descricao": "Grupo 5",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 16111.0,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 2,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4141.16,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 21600.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 21600.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4142.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5738.04,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6041.8,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6569.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 13325.06,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 13326.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11088488000177",
-          "nome": "REOBOT COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 108000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 108000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 14305.18,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "47756053000109",
-          "nome": "SA CONSUMIVEIS PRODUTOS DE LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 15012.8,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16111.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 16111.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 15020.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15940.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 15940.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 15940.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 30582.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 30582.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 30582.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "49198204000178",
-          "nome": "WYARA EMPREENDIMENTOS - LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -18,
+    "numero": -1,
     "tipo": "Grupo",
     "disputaPorValorUnitario": "Não",
     "possuiOrcamentoSigiloso": "Não",
     "identificador": "G1",
     "descricao": "Grupo 1",
     "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
+    "homologado": "Sim",
     "situacaoEnvioResultado": "None",
     "numeroSessaoJulgHab": 1,
     "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
     "participacaoExclusivaMeEppOuEquiparadas": "Sim",
     "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
+    "fase": "Adjudicação encerrada",
     "quantidadeSolicitada": null,
     "criterioValor": "Valor estimado",
     "valorEstimado": null,
     "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 15420.8,
+    "valorEstimadoTotal": 30292.89,
     "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 11,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5096.52,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 26200.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 26200.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5097.3,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6726.24,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7200.29,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 18475.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 18475.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7603.97,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 8484.45,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15423.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 15423.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12185.76,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12186.02,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15420.8,
-              "valorUnitario": null
-            },
-            "valorInformado": 15420.8
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 14073.32,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -15,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G4",
-    "descricao": "Grupo 4",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 16890.72,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 80000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 80000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3068.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "21803386000140",
-          "nome": "THAIS KENDERLLY ALVES DA SILVA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 21530.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 21530.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3200.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5017.24,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5017.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 34800.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 34800.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5648.52,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6432.85,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7300.8,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 80000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 80000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 14100.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "47756053000109",
-          "nome": "SA CONSUMIVEIS PRODUTOS DE LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 16290.25,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 16291.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16854.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 16854.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 16854.4,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": 16890.72
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 16890.72,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -16,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G3",
-    "descricao": "Grupo 3",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 29578.12,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
+    "julgHabEncerrada": "Sim",
     "qtdeItensDoGrupo": 19,
     "qtdeAceitaSrp": null,
     "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
+    "prazosFaseRecursal": {},
     "propostasItem": [
       {
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 29578.12,
+              "valorTotal": 30276.06,
               "valorUnitario": null
             },
-            "valorInformado": 29578.12
+            "valorInformado": 30276.06
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 9984.25,
+              "valorTotal": 22497.19,
               "valorUnitario": null
             },
             "valorInformado": null
@@ -3362,23 +1524,23 @@ const dadosAgrupados = [
         },
         "quantidadeOfertada": null,
         "descricaoDetalhada": null,
-        "situacao": "None",
+        "situacao": "Proposta desclassificada",
         "marcaFabricante": null,
         "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
+          "identificacao": "31900031000122",
+          "nome": "LENISA DISTRIBUIDORA LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio da proposta atualizada, juntamente com a ficha técnica e rótulos dos produtos ofertados.",
         "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2023-12-22T14:00:00",
+        "motivoDesclassificacao": "Licitante não enviou os documentos solicitados no prazo determinado.",
         "situacaoNaDisputaFinal": null,
         "situacaoNoDesempateMeEpp": null
       },
@@ -3386,14 +1548,14 @@ const dadosAgrupados = [
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 29578.12,
+              "valorTotal": 30292.89,
               "valorUnitario": null
             },
-            "valorInformado": 29578.12
+            "valorInformado": 30292.89
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 10013.04,
+              "valorTotal": 22921.88,
               "valorUnitario": null
             },
             "valorInformado": null
@@ -3403,5339 +1565,1604 @@ const dadosAgrupados = [
         },
         "quantidadeOfertada": null,
         "descricaoDetalhada": null,
-        "situacao": "None",
+        "situacao": "Proposta adjudicada",
         "marcaFabricante": null,
         "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 59125.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 59125.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10294.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 34860.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 34860.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10435.32,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 29578.12,
-              "valorUnitario": null
-            },
-            "valorInformado": 29578.12
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 11311.61,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 29578.12,
-              "valorUnitario": null
-            },
-            "valorInformado": 29578.12
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12281.33,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 29578.12,
-              "valorUnitario": null
-            },
-            "valorInformado": 29578.12
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12283.2,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 29578.12,
-              "valorUnitario": null
-            },
-            "valorInformado": 29578.12
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 19713.34,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 29578.12,
-              "valorUnitario": null
-            },
-            "valorInformado": 29578.12
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 29454.12,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -11,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G8",
-    "descricao": "Grupo 8",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 14793.95,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4228.7024,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4233.15,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos enviar atestados de qualificação técnica, conforme subitem 8.28 do TR.",
         "declaracaoMeEpp": "Sim",
         "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5158.11,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "28738385000108",
-          "nome": "NEW LIFE COMERCIO DE MATERIAIS E EQUIPAMENTOS CIRURGICOS E PRESTACOES DE SERVICO",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5959.82,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 15300.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 15300.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5960.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "40392813000199",
-          "nome": "COMERCIAL SOL RADIANTE LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12384.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 19900.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 19900.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 12570.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14793.95,
-              "valorUnitario": null
-            },
-            "valorInformado": 14793.95
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 13345.62,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 44381.85,
-              "valorUnitario": null
-            },
-            "valorInformado": 44381.85
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 14793.83,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "08238866000147",
-          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
+        "dataHoraLimiteAtendimento": "2023-12-26T16:45:00",
         "motivoDesclassificacao": null,
         "situacaoNaDisputaFinal": null,
         "situacaoNoDesempateMeEpp": null
       }
-    ]
-  },
-  {
-    "numero": -12,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G7",
-    "descricao": "Grupo 7",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 6204.17,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 4,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 40000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 40000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1806.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "21803386000140",
-          "nome": "THAIS KENDERLLY ALVES DA SILVA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 7820.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 7820.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2133.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6204.17,
-              "valorUnitario": null
-            },
-            "valorInformado": 6204.17
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3801.34,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6204.17,
-              "valorUnitario": null
-            },
-            "valorInformado": 6204.17
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3801.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6188.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 6188.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6188.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -10,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G9",
-    "descricao": "Grupo 9",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 5570.02,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 7,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2220.66,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2221.67,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "28738385000108",
-          "nome": "NEW LIFE COMERCIO DE MATERIAIS E EQUIPAMENTOS CIRURGICOS E PRESTACOES DE SERVICO",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2228.4165,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2427.25,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2429.21,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 14460.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 14460.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2533.48,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5552.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5552.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2543.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5461.29,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5570.02,
-              "valorUnitario": null
-            },
-            "valorInformado": 5570.02
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5462.39,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5544.3,
-              "valorUnitario": null
-            },
-            "valorInformado": 5544.3
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5544.3,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 7425.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 7425.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7425.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -13,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G6",
-    "descricao": "Grupo 6",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 4145.4,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 4,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6090.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 6090.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2259.25,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2329.04,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2902.83,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3060.225,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3133.97,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4133.15,
-              "valorUnitario": null
-            },
-            "valorInformado": 4133.15
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3568.95,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4010.51,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4145.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 4145.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4085.9,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 12436.2,
-              "valorUnitario": null
-            },
-            "valorInformado": 12436.2
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4133.01,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "08238866000147",
-          "nome": "ADONEX COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 4270.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 4270.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4270.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6300.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 6300.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6300.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -9,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G10",
-    "descricao": "Grupo 10",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 2181.93,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2181.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 2181.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 665.79,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2181.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 2181.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 666.9,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2181.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 2181.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 748.57,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2915.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 2915.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 915.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2181.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 2181.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1296.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2181.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 2181.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1557.93,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 53000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 53000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1559.11,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "47756053000109",
-          "nome": "SA CONSUMIVEIS PRODUTOS DE LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2179.4,
-              "valorUnitario": null
-            },
-            "valorInformado": 2179.4
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2179.4,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -7,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G12",
-    "descricao": "Grupo 12",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 10513.59,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 260000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 260000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3266.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "21803386000140",
-          "nome": "THAIS KENDERLLY ALVES DA SILVA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3330.99,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 12400.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 12400.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3333.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5346.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5429.67,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 8471.453,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10481.51,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10513.59,
-              "valorUnitario": null
-            },
-            "valorInformado": 10513.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10485.43,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10511.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 10511.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10511.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -8,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G11",
-    "descricao": "Grupo 11",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 11792.53,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 10,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 11792.53,
-              "valorUnitario": null
-            },
-            "valorInformado": 11792.53
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6705.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 11792.53,
-              "valorUnitario": null
-            },
-            "valorInformado": 11792.53
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6705.29,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 19115.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 19115.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6830.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 11802.73,
-              "valorUnitario": null
-            },
-            "valorInformado": 11802.73
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 11802.73,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -5,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G14",
-    "descricao": "Grupo 14",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 1673.58,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2100.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 2100.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 670.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1673.58,
-              "valorUnitario": null
-            },
-            "valorInformado": 1673.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 710.1,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1673.58,
-              "valorUnitario": null
-            },
-            "valorInformado": 1673.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 864.89,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1673.58,
-              "valorUnitario": null
-            },
-            "valorInformado": 1673.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 865.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1673.58,
-              "valorUnitario": null
-            },
-            "valorInformado": 1673.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 995.46,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1673.58,
-              "valorUnitario": null
-            },
-            "valorInformado": 1673.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 995.68,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 1712.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 1712.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1712.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -6,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G13",
-    "descricao": "Grupo 13",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 2292.31,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 5,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2292.31,
-              "valorUnitario": null
-            },
-            "valorInformado": 2292.31
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1619.75,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 3175.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 3175.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1620.1,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2292.31,
-              "valorUnitario": null
-            },
-            "valorInformado": 2292.31
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2292.31,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -4,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G15",
-    "descricao": "Grupo 15",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 8072.47,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 13,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": 8072.47
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2050.05,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": 8072.47
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2050.6669,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": 8072.47
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2941.44,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 20600.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 20600.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2941.5,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 11431.17,
-              "valorUnitario": null
-            },
-            "valorInformado": 11431.17
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7165.77,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": 8072.47
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 7529.72,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": 8072.47
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 8072.47,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": 2,
-    "tipo": "ItemPregao não agrupado",
-    "disputaPorValorUnitario": "Sim",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "2",
-    "descricao": "Material laboratório",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": 11,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": 597.49,
-    "valorEstimadoTotal": 6572.39,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": null,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 16500.0,
-              "valorUnitario": 1500.0
-            },
-            "valorInformado": 1500.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1694.0,
-              "valorUnitario": 154.0
-            },
-            "valorInformado": 154.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 11,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "BHGLASS",
-        "modeloVersao": "Clevenger 500ML",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "21803386000140",
-          "nome": "THAIS KENDERLLY ALVES DA SILVA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 7700.0,
-              "valorUnitario": 700.0
-            },
-            "valorInformado": 700.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1705.0,
-              "valorUnitario": 155.0
-            },
-            "valorInformado": 155.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 11,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CARLABOR",
-        "modeloVersao": "CARLABOR/VL",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6572.39,
-              "valorUnitario": 597.49
-            },
-            "valorInformado": 597.49
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5476.9,
-              "valorUnitario": 497.9
-            },
-            "valorInformado": 497.9
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 11,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CARLABOR",
-        "modeloVersao": "ACTV-500",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6572.39,
-              "valorUnitario": 597.49
-            },
-            "valorInformado": 597.49
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5489.0,
-              "valorUnitario": 499.0
-            },
-            "valorInformado": 499.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 11,
-        "descricaoDetalhada": "Material laboratório - Material Laboratório Tipo: Aparelho Clevenger , Material: Vidro , Dimensões: Com Balão 500 ML, Adicional: Graduado , Componentes: Com Torneira Vidro",
-        "situacao": "None",
-        "marcaFabricante": "QUALIVIDROS",
-        "modeloVersao": "QUALIVIDROS",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6567.0,
-              "valorUnitario": 597.0
-            },
-            "valorInformado": 597.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6567.0,
-              "valorUnitario": 597.0
-            },
-            "valorInformado": 597.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 11,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "Exom",
-        "modeloVersao": "500 ml",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": 1,
-    "tipo": "ItemPregao não agrupado",
-    "disputaPorValorUnitario": "Sim",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "1",
-    "descricao": "Aparelho de kipp",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": 5,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": 538.73,
-    "valorEstimadoTotal": 2693.65,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": null,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5000.0,
-              "valorUnitario": 1000.0
-            },
-            "valorInformado": 1000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1860.0,
-              "valorUnitario": 372.0
-            },
-            "valorInformado": 372.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 5,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "BHGLASS",
-        "modeloVersao": "Ap. Kipp 250ML",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "21803386000140",
-          "nome": "THAIS KENDERLLY ALVES DA SILVA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 3500.0,
-              "valorUnitario": 700.0
-            },
-            "valorInformado": 700.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1865.0,
-              "valorUnitario": 373.0
-            },
-            "valorInformado": 373.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 5,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CARLABOR",
-        "modeloVersao": "CARLABOR/KIPP",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2693.65,
-              "valorUnitario": 538.73
-            },
-            "valorInformado": 538.73
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2470.0,
-              "valorUnitario": 494.0
-            },
-            "valorInformado": 494.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 5,
-        "descricaoDetalhada": "Aparelho de kipp - Aparelho De Kipp Material: Vidro , Capacidade: 250 ML, Componentes: Com Frasco, Balão, Funil E Torneira",
-        "situacao": "None",
-        "marcaFabricante": "QUALIVIDROS",
-        "modeloVersao": "QUALIVIDROS",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2693.5,
-              "valorUnitario": 538.7
-            },
-            "valorInformado": 538.7
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2693.5,
-              "valorUnitario": 538.7
-            },
-            "valorInformado": 538.7
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 5,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "Exom",
-        "modeloVersao": "250 ml",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2693.65,
-              "valorUnitario": 538.73
-            },
-            "valorInformado": 538.73
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2693.65,
-              "valorUnitario": 538.73
-            },
-            "valorInformado": 538.73
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 5,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "VIDROLABOR",
-        "modeloVersao": "VIDROLABOR",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -3,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G16",
-    "descricao": "Grupo 16",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 6318.63,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 9,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 10410.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 10410.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1702.4,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2029.97,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2565.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2571.44,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.93,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.93
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3658.51,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 3658.73,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4151.3,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "22627453000185",
-          "nome": "A C L ASSISTENCIA E COMERCIO DE PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 4266.24,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "59403410000126",
-          "nome": "INTERJET COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 6318.63,
-              "valorUnitario": null
-            },
-            "valorInformado": 6318.63
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6286.15,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -1,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G18",
-    "descricao": "Grupo 18",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 2332.75,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 3,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 766.8,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 5950.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 5950.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 768.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 7300.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 7300.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 804.08,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06238495000178",
-          "nome": "DGC COMERCIO DE PRODUTOS PARA LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 907.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1205.17,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1239.3,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 146000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 146000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1301.71,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "47756053000109",
-          "nome": "SA CONSUMIVEIS PRODUTOS DE LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 1454.58,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2332.75,
-              "valorUnitario": null
-            },
-            "valorInformado": 2332.75
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2170.5,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 2329.6,
-              "valorUnitario": null
-            },
-            "valorInformado": 2329.6
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 2329.6,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      }
-    ]
-  },
-  {
-    "numero": -2,
-    "tipo": "Grupo",
-    "disputaPorValorUnitario": "Não",
-    "possuiOrcamentoSigiloso": "Não",
-    "identificador": "G17",
-    "descricao": "Grupo 17",
-    "criterioJulgamento": "Menor Preço",
-    "homologado": "Não",
-    "situacaoEnvioResultado": "None",
-    "numeroSessaoJulgHab": 1,
-    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
-    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
-    "situacao": "Ativo",
-    "fase": "Disputa Encerrada",
-    "quantidadeSolicitada": null,
-    "criterioValor": "Valor estimado",
-    "valorEstimado": null,
-    "valorEstimadoUnitario": null,
-    "valorEstimadoTotal": 17764.62,
-    "priorizarAbertura": "Não",
-    "julgHabEncerrada": "Não",
-    "qtdeItensDoGrupo": 5,
-    "qtdeAceitaSrp": null,
-    "qtdeAdjudicadaSrp": null,
-    "prazosFaseRecursal": null,
-    "propostasItem": [
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17764.62,
-              "valorUnitario": null
-            },
-            "valorInformado": 17764.62
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 5652.5717,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "10535809000171",
-          "nome": "NNAL COMERCIO DE MATERIAIS MEDICOS E SERVICOS EMPRESARIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": "S",
-        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio de Proposta para o grupo/item. ",
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Sim",
-        "dataHoraLimiteAtendimento": "2024-03-28T13:30:00",
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 538000.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 538000.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6204.37,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "47756053000109",
-          "nome": "SA CONSUMIVEIS PRODUTOS DE LABORATORIO LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17764.62,
-              "valorUnitario": null
-            },
-            "valorInformado": 17764.62
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 6207.54,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "11301724000191",
-          "nome": "QUALY COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17763.22,
-              "valorUnitario": null
-            },
-            "valorInformado": 17763.22
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10601.87,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32578926000155",
-          "nome": "DINALAB COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17764.62,
-              "valorUnitario": null
-            },
-            "valorInformado": 17764.62
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 10606.4,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35257760000163",
-          "nome": "LAB VISION - COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17764.62,
-              "valorUnitario": null
-            },
-            "valorInformado": 17764.62
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 11856.13,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "31931501000115",
-          "nome": "ZARALAB COMERCIO DE PRODUTOS LABORATORIAIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 27440.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 27440.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 14496.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45947177000138",
-          "nome": "CARLABOR PRODUTOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 17764.62,
-              "valorUnitario": null
-            },
-            "valorInformado": 17764.62
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 17750.62,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "26205861000108",
-          "nome": "OXYGEN SOLUCOES COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 18146.0,
-              "valorUnitario": null
-            },
-            "valorInformado": 18146.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 18146.0,
-              "valorUnitario": null
-            },
-            "valorInformado": null
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": null,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": null,
-        "modeloVersao": null,
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "55741110000104",
-          "nome": "EXOM ARTIGOS PARA LABORATORIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null
+    ],
+    "subItens": [
+      {
+        "numero": 1,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "1",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 93,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 19.51,
+        "valorEstimadoTotal": 1814.43,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 93,
+            "marcaFabricante": "tempera bem ",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 19.5,
+                "valorCalculado": {
+                  "valorUnitario": 19.5,
+                  "valorTotal": 1813.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.5,
+                "valorCalculado": {
+                  "valorUnitario": 19.5,
+                  "valorTotal": 1813.5
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 93,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 19.51,
+                "valorCalculado": {
+                  "valorUnitario": 19.51,
+                  "valorTotal": 1814.43
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 16.94,
+                "valorCalculado": {
+                  "valorUnitario": 16.94,
+                  "valorTotal": 1575.42
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "2",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 70,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 18.85,
+        "valorEstimadoTotal": 1319.5,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 70,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.84,
+                "valorCalculado": {
+                  "valorUnitario": 18.84,
+                  "valorTotal": 1318.8
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 10.0,
+                "valorCalculado": {
+                  "valorUnitario": 10.0,
+                  "valorTotal": 700.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 70,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.85,
+                "valorCalculado": {
+                  "valorUnitario": 18.85,
+                  "valorTotal": 1319.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.4,
+                "valorCalculado": {
+                  "valorUnitario": 11.4,
+                  "valorTotal": 798.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "3",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 58,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 9.99,
+        "valorEstimadoTotal": 579.42,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 58,
+            "marcaFabricante": "chinesinho",
+            "modeloVersao": "30grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 9.98,
+                "valorCalculado": {
+                  "valorUnitario": 9.98,
+                  "valorTotal": 578.84
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 5.0,
+                "valorCalculado": {
+                  "valorUnitario": 5.0,
+                  "valorTotal": 290.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 58,
+            "marcaFabricante": "KITANO/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 9.99,
+                "valorCalculado": {
+                  "valorUnitario": 9.99,
+                  "valorTotal": 579.42
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 4.0,
+                "valorCalculado": {
+                  "valorUnitario": 4.0,
+                  "valorTotal": 232.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "4",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 6,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 70.96,
+        "valorEstimadoTotal": 425.76,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 6,
+            "marcaFabricante": "tempera bem ",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 70.95,
+                "valorCalculado": {
+                  "valorUnitario": 70.95,
+                  "valorTotal": 425.7
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 25.0,
+                "valorCalculado": {
+                  "valorUnitario": 25.0,
+                  "valorTotal": 150.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 6,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 70.96,
+                "valorCalculado": {
+                  "valorUnitario": 70.96,
+                  "valorTotal": 425.76
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 30.0,
+                "valorCalculado": {
+                  "valorUnitario": 30.0,
+                  "valorTotal": 180.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "5",
+        "descricao": "Tempero",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 144,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 21.52,
+        "valorEstimadoTotal": 3098.88,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 144,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 21.51,
+                "valorCalculado": {
+                  "valorUnitario": 21.51,
+                  "valorTotal": 3097.44
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.0,
+                "valorCalculado": {
+                  "valorUnitario": 19.0,
+                  "valorTotal": 2736.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 144,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 21.52,
+                "valorCalculado": {
+                  "valorUnitario": 21.52,
+                  "valorTotal": 3098.88
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 21.08,
+                "valorCalculado": {
+                  "valorUnitario": 21.08,
+                  "valorTotal": 3035.52
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "6",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 600,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 15.93,
+        "valorEstimadoTotal": 9558.0,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 600,
+            "marcaFabricante": "tempero bem",
+            "modeloVersao": "kg",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 15.92,
+                "valorCalculado": {
+                  "valorUnitario": 15.92,
+                  "valorTotal": 9552.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 10.0,
+                "valorCalculado": {
+                  "valorUnitario": 10.0,
+                  "valorTotal": 6000.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 600,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 15.93,
+                "valorCalculado": {
+                  "valorUnitario": 15.93,
+                  "valorTotal": 9558.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.8,
+                "valorCalculado": {
+                  "valorUnitario": 9.8,
+                  "valorTotal": 5880.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "7",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 33,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 13.7,
+        "valorEstimadoTotal": 452.1,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 33,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.69,
+                "valorCalculado": {
+                  "valorUnitario": 13.69,
+                  "valorTotal": 451.77
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.0,
+                "valorCalculado": {
+                  "valorUnitario": 9.0,
+                  "valorTotal": 297.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 33,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.7,
+                "valorCalculado": {
+                  "valorUnitario": 13.7,
+                  "valorTotal": 452.1
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.9,
+                "valorCalculado": {
+                  "valorUnitario": 9.9,
+                  "valorTotal": 326.7
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "8",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 17,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 57.48,
+        "valorEstimadoTotal": 977.16,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 17,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 57.47,
+                "valorCalculado": {
+                  "valorUnitario": 57.47,
+                  "valorTotal": 976.99
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 57.47,
+                "valorCalculado": {
+                  "valorUnitario": 57.47,
+                  "valorTotal": 976.99
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 17,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 57.48,
+                "valorCalculado": {
+                  "valorUnitario": 57.48,
+                  "valorTotal": 977.16
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 57.48,
+                "valorCalculado": {
+                  "valorUnitario": 57.48,
+                  "valorTotal": 977.16
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "9",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 44,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.7,
+        "valorEstimadoTotal": 646.8,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.69,
+                "valorCalculado": {
+                  "valorUnitario": 14.69,
+                  "valorTotal": 646.36
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 6.0,
+                "valorCalculado": {
+                  "valorUnitario": 6.0,
+                  "valorTotal": 264.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.7,
+                "valorCalculado": {
+                  "valorUnitario": 14.7,
+                  "valorTotal": 646.8
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 13.3,
+                "valorCalculado": {
+                  "valorUnitario": 13.3,
+                  "valorTotal": 585.2
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "10",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 23,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 12.35,
+        "valorEstimadoTotal": 284.05,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 23,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 12.34,
+                "valorCalculado": {
+                  "valorUnitario": 12.34,
+                  "valorTotal": 283.82
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 7.0,
+                "valorCalculado": {
+                  "valorUnitario": 7.0,
+                  "valorTotal": 161.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 23,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 12.35,
+                "valorCalculado": {
+                  "valorUnitario": 12.35,
+                  "valorTotal": 284.05
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.6,
+                "valorCalculado": {
+                  "valorUnitario": 8.6,
+                  "valorTotal": 197.8
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "11",
+        "descricao": "Tempero",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 45,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 20.22,
+        "valorEstimadoTotal": 909.9,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 45,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 20.21,
+                "valorCalculado": {
+                  "valorUnitario": 20.21,
+                  "valorTotal": 909.45
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.0,
+                "valorCalculado": {
+                  "valorUnitario": 18.0,
+                  "valorTotal": 810.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 45,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 20.22,
+                "valorCalculado": {
+                  "valorUnitario": 20.22,
+                  "valorTotal": 909.9
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.7,
+                "valorCalculado": {
+                  "valorUnitario": 19.7,
+                  "valorTotal": 886.5
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "12",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 84,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 26.24,
+        "valorEstimadoTotal": 2204.16,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 84,
+            "marcaFabricante": "tempera bem/casa pedro",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 26.23,
+                "valorCalculado": {
+                  "valorUnitario": 26.23,
+                  "valorTotal": 2203.32
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 26.23,
+                "valorCalculado": {
+                  "valorUnitario": 26.23,
+                  "valorTotal": 2203.32
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 84,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 26.24,
+                "valorCalculado": {
+                  "valorUnitario": 26.24,
+                  "valorTotal": 2204.16
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.08,
+                "valorCalculado": {
+                  "valorUnitario": 19.08,
+                  "valorTotal": 1602.72
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "13",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 44,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 13.33,
+        "valorEstimadoTotal": 586.52,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.32,
+                "valorCalculado": {
+                  "valorUnitario": 13.32,
+                  "valorTotal": 586.08
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.0,
+                "valorCalculado": {
+                  "valorUnitario": 11.0,
+                  "valorTotal": 484.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.33,
+                "valorCalculado": {
+                  "valorUnitario": 13.33,
+                  "valorTotal": 586.52
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 13.33,
+                "valorCalculado": {
+                  "valorUnitario": 13.33,
+                  "valorTotal": 586.52
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "14",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 22,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 28.8,
+        "valorEstimadoTotal": 633.6,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 22,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 28.79,
+                "valorCalculado": {
+                  "valorUnitario": 28.79,
+                  "valorTotal": 633.38
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 28.79,
+                "valorCalculado": {
+                  "valorUnitario": 28.79,
+                  "valorTotal": 633.38
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 22,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 28.8,
+                "valorCalculado": {
+                  "valorUnitario": 28.8,
+                  "valorTotal": 633.6
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 16.51,
+                "valorCalculado": {
+                  "valorUnitario": 16.51,
+                  "valorTotal": 363.22
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "15",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 65,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 23.31,
+        "valorEstimadoTotal": 1515.15,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 65,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 23.3,
+                "valorCalculado": {
+                  "valorUnitario": 23.3,
+                  "valorTotal": 1514.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.0,
+                "valorCalculado": {
+                  "valorUnitario": 19.0,
+                  "valorTotal": 1235.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 65,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 23.31,
+                "valorCalculado": {
+                  "valorUnitario": 23.31,
+                  "valorTotal": 1515.15
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 21.37,
+                "valorCalculado": {
+                  "valorUnitario": 21.37,
+                  "valorTotal": 1389.05
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "16",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 92,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.55,
+        "valorEstimadoTotal": 1338.6,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 92,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.54,
+                "valorCalculado": {
+                  "valorUnitario": 14.54,
+                  "valorTotal": 1337.68
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 736.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 92,
+            "marcaFabricante": "TEM´PERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.55,
+                "valorCalculado": {
+                  "valorUnitario": 14.55,
+                  "valorTotal": 1338.6
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.12,
+                "valorCalculado": {
+                  "valorUnitario": 11.12,
+                  "valorTotal": 1023.04
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "17",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 68,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.27,
+        "valorEstimadoTotal": 970.36,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 68,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.26,
+                "valorCalculado": {
+                  "valorUnitario": 14.26,
+                  "valorTotal": 969.68
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 544.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 68,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.27,
+                "valorCalculado": {
+                  "valorUnitario": 14.27,
+                  "valorTotal": 970.36
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.96,
+                "valorCalculado": {
+                  "valorUnitario": 9.96,
+                  "valorTotal": 677.28
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "18",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 75,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.86,
+        "valorEstimadoTotal": 1114.5,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 75,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.85,
+                "valorCalculado": {
+                  "valorUnitario": 14.85,
+                  "valorTotal": 1113.75
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 600.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 75,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.86,
+                "valorCalculado": {
+                  "valorUnitario": 14.86,
+                  "valorTotal": 1114.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.89,
+                "valorCalculado": {
+                  "valorUnitario": 9.89,
+                  "valorTotal": 741.75
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "19",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 100,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 18.64,
+        "valorEstimadoTotal": 1864.0,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 100,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.63,
+                "valorCalculado": {
+                  "valorUnitario": 18.63,
+                  "valorTotal": 1863.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.63,
+                "valorCalculado": {
+                  "valorUnitario": 18.63,
+                  "valorTotal": 1863.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 100,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.64,
+                "valorCalculado": {
+                  "valorUnitario": 18.64,
+                  "valorTotal": 1864.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.64,
+                "valorCalculado": {
+                  "valorUnitario": 18.64,
+                  "valorTotal": 1864.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
       }
     ]
   }
@@ -8747,8 +3174,8 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
     const [resultados, setResultados] = useState<ResultadoCompraItem[]>([])
     const [existeResultado, setExisteResultado] = useState(false)
     const [compraNumero, setCompraNumero] = useState('')
-    //const [dadosCnetMobile, setDadosCnetMobile] = useState([dadosAgrupados])
-    const [dadosCnetMobile, setDadosCnetMobile] = useState()
+    const [dadosCnetMobile, setDadosCnetMobile] = useState([dadosAgrupados])
+    //const [dadosCnetMobile, setDadosCnetMobile] = useState()
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     const [isActivated, setIsActivated] = useState(false)
 
@@ -8766,7 +3193,6 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                     setExisteResultado(true)
                 }
 
-                
                 setCompraNumero(extrairNumeroDaCompra(compraResponse.linkSistemaOrigem))
         
                 setCompra(compraResponse);
@@ -8914,7 +3340,7 @@ export default function Compra( { orgao_cnpj, ano, numero_sequencial, swap } ) {
                                 <Button color="primary" onPress={
                                     () => {
                                         onClose()
-                                        startFetchingCnetMobile()
+                                        //startFetchingCnetMobile()
                                     }
                                 }>
                                     Iniciar

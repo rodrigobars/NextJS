@@ -2,11 +2,36 @@ import React from 'react'
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer } from '@nextui-org/react';
 import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
-import { stringify } from 'querystring';
 
 export default function CnetMobileTable( { dados } ) {
-    console.log(dados.propostas)
 
+    function generateID(): string {
+        let id = Math.floor(Math.random() * 1000000).toString(); // Generate 6-digit number
+        while (id.length < 6) {
+          id = "0" + id; // Pad with zeros if necessary
+        }
+        return id;
+    }
+
+    function useRandomLightColor() {
+      
+        const hsl = `hsl(${Math.floor(Math.random() * 360)}, 100%, ${Math.floor(
+            Math.random() * 80 + 20
+        )}%)`;
+         
+        return hsl;
+    };
+      
+    const filteredNumbers = dados[0].filter((proposta) => proposta.numero < 0);
+    
+    const dictionary: Record<number, string> = {};
+    
+    for (const proposta of filteredNumbers) {
+        dictionary[proposta.numero] = useRandomLightColor();
+    }
+
+    console.log(dictionary)
+      
     const tipo = (tipo) => {
         if (tipo == "Fornecedor habilitado") return ('primary')
         else if (tipo == "Proposta adjudicada") return ('success')
@@ -36,7 +61,7 @@ export default function CnetMobileTable( { dados } ) {
                     <TableColumn>Empresas</TableColumn>
                 </TableHeader>
                 <TableBody emptyContent={"No rows to display."}>
-                    {
+                    {   
                         //dados.propostas
                         dados[0]
                             .sort((a, b) => a.numero - b.numero)
@@ -45,13 +70,12 @@ export default function CnetMobileTable( { dados } ) {
                                     <TableRow key={propostaIndex}>
 
                                         <TableCell>
-                                            -
                                         </TableCell>
 
                                         <TableCell
                                             className='animate-none text-center'
                                             >
-                                            <Chip variant='flat' color={proposta.tipo=='Grupo' ? 'default' : 'primary'} size='lg'>{proposta.identificador}</Chip>
+                                            <Chip variant='flat' color='default' size='lg'>{proposta.identificador}</Chip>
                                         </TableCell>
 
                                         <TableCell
@@ -127,9 +151,9 @@ export default function CnetMobileTable( { dados } ) {
                                                                         }
                                                                         <p><strong>Marca: </strong>{item.marcaFabricante}</p>
                                                                         <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-                                                                        <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p>
                                                                         <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
                                                                         <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
+                                                                        {/* <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p> */}
                                                                     </div>
                                                                 </CardBody>
                                                                 {(item.situacao != 'None') && (
@@ -150,15 +174,18 @@ export default function CnetMobileTable( { dados } ) {
 
                                     :
 
-                                    proposta.subItens.map((subItem, subItemIndex) => (
-                                        <TableRow key={subItemIndex}>
+                                    proposta.subItens.map((subItem) => (
+                                        <TableRow key={generateID()}>
                                             <TableCell>
-                                                <Chip variant='flat' color='primary' size='lg'>{proposta.identificador}</Chip>
+                                                <Chip variant='flat' size='lg' style={{'backgroundColor': `${dictionary[proposta.numero]}`}}  className={'text-gray-950'}>{proposta.identificador}</Chip>
                                             </TableCell>
-                                            <TableCell>{subItem.numero}</TableCell>
-                                            <TableCell>{subItem.descricao}</TableCell>
-                                            <TableCell>{subItem.quantidadeSolicitada}</TableCell>
-                                            <TableCell><p className='font-bold'>{subItem.valorEstimadoUnitario ? formatarParaReais(subItem.valorEstimadoUnitario) : null}</p></TableCell>
+                                            <TableCell
+                                                className='text-center'>
+                                                <Chip variant='flat' color='default'>{subItem.numero}</Chip>
+                                            </TableCell>
+                                            <TableCell className='text-center'>{subItem.descricao}</TableCell>
+                                            <TableCell className='text-center'>{subItem.quantidadeSolicitada}</TableCell>
+                                            <TableCell className='text-center'><p className='font-bold'>{subItem.valorEstimadoUnitario ? formatarParaReais(subItem.valorEstimadoUnitario) : null}</p></TableCell>
                                             <TableCell>
                                                 <p><strong>situacao: </strong>{subItem.situacao}</p>
                                                 <p><strong>fase: </strong>{subItem.fase}</p>
@@ -210,9 +237,9 @@ export default function CnetMobileTable( { dados } ) {
                                                                         }
                                                                         <p><strong>Marca: </strong>{item.marcaFabricante}</p>
                                                                         <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-                                                                        <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p>
                                                                         <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
                                                                         <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
+                                                                        {/* <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p> */}
                                                                     </div>
                                                                 </CardBody>
                                                                 {(item.situacao != 'None') && (

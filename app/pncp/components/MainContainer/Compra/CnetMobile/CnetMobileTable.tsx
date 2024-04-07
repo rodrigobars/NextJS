@@ -1,5 +1,7 @@
+'use client'
+
 import React from 'react'
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer } from '@nextui-org/react';
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer, Accordion, AccordionItem, Textarea } from '@nextui-org/react';
 import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
 
@@ -29,8 +31,6 @@ export default function CnetMobileTable( { dados } ) {
     for (const proposta of filteredNumbers) {
         dictionary[proposta.numero] = useRandomLightColor();
     }
-
-    console.log(dictionary)
       
     const tipo = (tipo) => {
         if (tipo == "Fornecedor habilitado") return ('primary')
@@ -40,9 +40,11 @@ export default function CnetMobileTable( { dados } ) {
         else return ('default')
     }
 
+    console.log(dados[0])
+
     return (
         <div className='sm gap-5 overflow-x-auto max-w-full'>
-            <Table
+                        <Table
                 selectionMode="single"
                 color='secondary'
                 isHeaderSticky
@@ -67,6 +69,7 @@ export default function CnetMobileTable( { dados } ) {
                             .sort((a, b) => a.numero - b.numero)
                             .map((proposta, propostaIndex) =>  (
                                 proposta.tipo != 'Grupo' ? 
+                                    
                                     <TableRow key={propostaIndex}>
 
                                         <TableCell>
@@ -97,7 +100,7 @@ export default function CnetMobileTable( { dados } ) {
                                         </TableCell>
 
                                         <TableCell
-                                            className='text-left'
+                                            className='text-center'
                                             >
                                             <p><strong>situacao: </strong>{proposta.situacao}</p>
                                             <p><strong>fase: </strong>{proposta.fase}</p>
@@ -105,24 +108,28 @@ export default function CnetMobileTable( { dados } ) {
                                             <p><strong>numeroSessaoJulgHab: </strong>{proposta.numeroSessaoJulgHab}</p>
                                             <p><strong>homologado: </strong>{proposta.homologado}</p>
                                             <Spacer y={5}/>
-                                            <p><strong>Tipo: </strong>{proposta.tipo}</p>
-                                            <p><strong>disputaPorValorUnitario: </strong>{proposta.disputaPorValorUnitario}</p>
-                                            <p><strong>criterioJulgamento: </strong>{proposta.criterioJulgamento}</p>
-                                            <p><strong>situacaoEnvioResultado: </strong>{proposta.situacaoEnvioResultado}</p>
                                             <p><strong>tipoTratamentoDiferenciadoMeEpp: </strong>{proposta.tipoTratamentoDiferenciadoMeEpp}</p>
-                                            <p><strong>participacaoExclusivaMeEppOuEquiparadas: </strong>{proposta.participacaoExclusivaMeEppOuEquiparadas}</p>
-                                            <p><strong>criterioValor: </strong>{proposta.criterioValor}</p>
-                                            <p><strong>priorizarAbertura: </strong>{proposta.priorizarAbertura}</p>
-                                            <p><strong>criterioValor: </strong>{proposta.criterioValor}</p>
-                                            <p><strong>qtdeItensDoGrupo: </strong>{proposta.qtdeItensDoGrupo}</p>
+                                            <p><strong>Apenas MeEpp ou Equiparadas: </strong>{proposta.participacaoExclusivaMeEppOuEquiparadas}</p>
+                                            {/* <p><strong>Tipo: </strong>{proposta.tipo}</p> */}
+                                            {/* <p><strong>disputaPorValorUnitario: </strong>{proposta.disputaPorValorUnitario}</p> */}
+                                            {/* <p><strong>criterioJulgamento: </strong>{proposta.criterioJulgamento}</p> */}
+                                            {/* <p><strong>situacaoEnvioResultado: </strong>{proposta.situacaoEnvioResultado}</p> */}
+                                            {/* <p><strong>criterioValor: </strong>{proposta.criterioValor}</p> */}
+                                            {/* <p><strong>priorizarAbertura: </strong>{proposta.priorizarAbertura}</p>
+                                            <p><strong>criterioValor: </strong>{proposta.criterioValor}</p> */}
+                                            {/* <p><strong>qtdeItensDoGrupo: </strong>{proposta.qtdeItensDoGrupo}</p>
                                             <p><strong>qtdeAceitaSrp: </strong>{proposta.qtdeAceitaSrp}</p>
-                                            <p><strong>qtdeAdjudicadaSrp: </strong>{proposta.qtdeAdjudicadaSrp}</p>
+                                            <p><strong>qtdeAdjudicadaSrp: </strong>{proposta.qtdeAdjudicadaSrp}</p> */}
                                             {/* <p><strong>prazosFaseRecursal: </strong>{proposta.prazosFaseRecursal}</p> */}
                                         </TableCell>
                                         
                                         <TableCell>
                                             <div className='flex gap-4'>
-                                                {
+                                                {   
+                                                    proposta.propostasItem
+                                                    
+                                                    ?
+
                                                     proposta.propostasItem
                                                         .sort((a, b) => a.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal - b.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal)
                                                         .map((item, itemIndex) => (
@@ -151,8 +158,34 @@ export default function CnetMobileTable( { dados } ) {
                                                                         }
                                                                         <p><strong>Marca: </strong>{item.marcaFabricante}</p>
                                                                         <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-                                                                        <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
-                                                                        <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
+
+                                                                        {(item.motivoDesclassificacao) &&
+                                                                            <Accordion isCompact>
+                                                                                <AccordionItem
+                                                                                    key="1"
+                                                                                    aria-label="Accordion 1"
+                                                                                    title="Motivo da desclassificação"
+                                                                                    title={(
+                                                                                        <span
+                                                                                            style={{
+                                                                                                color: 'danger',
+                                                                                                fontSize: '12px'
+                                                                                            }}
+                                                                                            >
+                                                                                            Motivo da desclassificação
+                                                                                        </span>
+                                                                                        )}>
+                                                                                            <Textarea
+                                                                                                isReadOnly
+                                                                                                color='warning'
+                                                                                                labelPlacement="outside"
+                                                                                                defaultValue={item.motivoDesclassificacao.replace(/<br\s*\/?>/g, '\n')}
+                                                                                                className="max-w-xs"
+                                                                                            />
+                                                                                </AccordionItem>
+                                                                            </Accordion>
+                                                                        }
+
                                                                         {/* <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p> */}
                                                                     </div>
                                                                 </CardBody>
@@ -165,7 +198,11 @@ export default function CnetMobileTable( { dados } ) {
                                                                     </>
                                                                 )}
                                                             </Card>
-                                                        ))
+                                                    ))
+
+                                                    :
+
+                                                    null
                                                 }
                                             </div>
                                         </TableCell>
@@ -186,78 +223,79 @@ export default function CnetMobileTable( { dados } ) {
                                             <TableCell className='text-center'>{subItem.descricao}</TableCell>
                                             <TableCell className='text-center'>{subItem.quantidadeSolicitada}</TableCell>
                                             <TableCell className='text-center'><p className='font-bold'>{subItem.valorEstimadoUnitario ? formatarParaReais(subItem.valorEstimadoUnitario) : null}</p></TableCell>
-                                            <TableCell>
-                                                <p><strong>situacao: </strong>{subItem.situacao}</p>
-                                                <p><strong>fase: </strong>{subItem.fase}</p>
-                                                <p><strong>julgHabEncerrada: </strong>{subItem.julgHabEncerrada}</p>
-                                                <p><strong>numeroSessaoJulgHab: </strong>{subItem.numeroSessaoJulgHab}</p>
-                                                <p><strong>homologado: </strong>{subItem.homologado}</p>
+                                            <TableCell
+                                                className='text-center'
+                                                >
+                                                <p><strong>situacao: </strong>{proposta.situacao}</p>
+                                                <p><strong>fase: </strong>{proposta.fase}</p>
+                                                <p><strong>julgHabEncerrada: </strong>{proposta.julgHabEncerrada}</p>
+                                                <p><strong>numeroSessaoJulgHab: </strong>{proposta.numeroSessaoJulgHab}</p>
+                                                <p><strong>homologado: </strong>{proposta.homologado}</p>
                                                 <Spacer y={5}/>
-                                                <p><strong>Tipo: </strong>{subItem.tipo}</p>
-                                                <p><strong>disputaPorValorUnitario: </strong>{subItem.disputaPorValorUnitario}</p>
-                                                <p><strong>criterioJulgamento: </strong>{subItem.criterioJulgamento}</p>
-                                                <p><strong>situacaoEnvioResultado: </strong>{subItem.situacaoEnvioResultado}</p>
-                                                <p><strong>tipoTratamentoDiferenciadoMeEpp: </strong>{subItem.tipoTratamentoDiferenciadoMeEpp}</p>
-                                                <p><strong>participacaoExclusivaMeEppOuEquiparadas: </strong>{subItem.participacaoExclusivaMeEppOuEquiparadas}</p>
-                                                <p><strong>criterioValor: </strong>{subItem.criterioValor}</p>
-                                                <p><strong>priorizarAbertura: </strong>{subItem.priorizarAbertura}</p>
-                                                <p><strong>criterioValor: </strong>{subItem.criterioValor}</p>
-                                                <p><strong>qtdeItensDoGrupo: </strong>{subItem.qtdeItensDoGrupo}</p>
-                                                <p><strong>qtdeAceitaSrp: </strong>{subItem.qtdeAceitaSrp}</p>
-                                                <p><strong>qtdeAdjudicadaSrp: </strong>{subItem.qtdeAdjudicadaSrp}</p>
+                                                <p><strong>tipoTratamentoDiferenciadoMeEpp: </strong>{proposta.tipoTratamentoDiferenciadoMeEpp}</p>
+                                                <p><strong>Apenas MeEpp ou Equiparadas: </strong>{proposta.participacaoExclusivaMeEppOuEquiparadas}</p>
+                                                {/* <p><strong>Tipo: </strong>{proposta.tipo}</p> */}
+                                                {/* <p><strong>disputaPorValorUnitario: </strong>{proposta.disputaPorValorUnitario}</p> */}
+                                                {/* <p><strong>criterioJulgamento: </strong>{proposta.criterioJulgamento}</p> */}
+                                                {/* <p><strong>situacaoEnvioResultado: </strong>{proposta.situacaoEnvioResultado}</p> */}
+                                                {/* <p><strong>criterioValor: </strong>{proposta.criterioValor}</p> */}
+                                                {/* <p><strong>priorizarAbertura: </strong>{proposta.priorizarAbertura}</p>
+                                                <p><strong>criterioValor: </strong>{proposta.criterioValor}</p> */}
+                                                {/* <p><strong>qtdeItensDoGrupo: </strong>{proposta.qtdeItensDoGrupo}</p>
+                                                <p><strong>qtdeAceitaSrp: </strong>{proposta.qtdeAceitaSrp}</p>
+                                                <p><strong>qtdeAdjudicadaSrp: </strong>{proposta.qtdeAdjudicadaSrp}</p> */}
+                                                {/* <p><strong>prazosFaseRecursal: </strong>{proposta.prazosFaseRecursal}</p> */}
                                             </TableCell>
                                             <TableCell>
-                                            <div className='flex gap-4'>
-                                                {
-                                                    subItem.propostaItem
-                                                        .sort((a, b) => a.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal - b.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal)
-                                                        .map((item, itemIndex) => (
+                                                <div className='flex gap-4'>
+                                                    {
+                                                        subItem.propostasItem
+                                                            .sort((a, b) => a.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal - b.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal)
+                                                            .map((item, itemIndex) => (
 
-                                                            <Card key={itemIndex} radius="lg" shadow='md' isPressable
-                                                                className='w-[300px] bg-neutral-800'>
-                                                                <CardHeader className='flex justify-between'>
-                                                                    <div>
-                                                                        <p className="text-small truncate text-green-400 animate-pulse">
-                                                                            {item.participante.nome.length > 25 ? `${item.participante.nome.slice(0, 25)}...` : item.participante.nome}
-                                                                        </p>
-                                                                        <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
-                                                                    </div>
-                                                                    <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
-                                                                </CardHeader>
-                                                                <Divider/>
-                                                                <CardBody>
-                                                                    <div>
-                                                                        <p><strong>tipo: </strong>{item.participante.tipo}</p>
-                                                                        <p><strong>declaracaoMeEpp: </strong>{item.declaracaoMeEpp}</p>
-                                                                        <p><strong>quantidade ofertada: </strong>{item.quantidadeOfertada}</p>
-                                                                        <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
-                                                                        <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
-                                                                        {(item.valorNegociado) &&
-                                                                            <p>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
-                                                                        }
-                                                                        <p><strong>Marca: </strong>{item.marcaFabricante}</p>
-                                                                        <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-                                                                        <p><strong>motivoDesclassificacao: </strong>{item.motivoDesclassificacao}</p>
-                                                                        <p><strong>justificativaUltimaSolicitacaoAnexos: </strong>{item.justificativaUltimaSolicitacaoAnexos}</p>
-                                                                        {/* <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p> */}
-                                                                    </div>
-                                                                </CardBody>
-                                                                {(item.situacao != 'None') && (
-                                                                    <>
-                                                                        <Divider/>
-                                                                        <CardFooter className='flex justify-center'>
-                                                                            <Chip variant='flat' color={tipo(item.situacao)}>{item.situacao}</Chip>
-                                                                        </CardFooter>
-                                                                    </>
-                                                                )}
-                                                            </Card>
-                                                        ))
-                                                }
-                                            </div>
-                                        </TableCell>
+                                                                <Card key={itemIndex} radius="lg" shadow='md' isPressable
+                                                                    className='w-[300px] bg-neutral-800'>
+                                                                    <CardHeader className='flex justify-between'>
+                                                                        <div>
+                                                                            <p className="text-small truncate text-green-400 animate-pulse">
+                                                                                {item.participante.nome.length > 25 ? `${item.participante.nome.slice(0, 25)}...` : item.participante.nome}
+                                                                            </p>
+                                                                            <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
+                                                                        </div>
+                                                                        <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
+                                                                    </CardHeader>
+                                                                    <Divider/>
+                                                                    <CardBody className='text-center'>
+                                                                        <div>
+                                                                            <p><strong>tipo: </strong>{item.participante.tipo}</p>
+                                                                            <p><strong>declaracaoMeEpp: </strong>{item.declaracaoMeEpp}</p>
+                                                                            <p><strong>quantidade ofertada: </strong>{item.quantidadeOfertada}</p>
+                                                                            <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
+                                                                            <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
+                                                                            {(item.valorNegociado) &&
+                                                                                <p>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
+                                                                            }
+                                                                            <p><strong>Marca: </strong>{item.marcaFabricante}</p>
+                                                                            <p><strong>Modelo: </strong>{item.modeloVersao}</p>
+
+                                                                            {/* <p><strong>descricaoDetalhada: </strong>{item.descricaoDetalhada}</p> */}
+                                                                        </div>
+                                                                    </CardBody>
+                                                                    {(item.situacao != 'None') && (
+                                                                        <>
+                                                                            <Divider/>
+                                                                            <CardFooter className='flex justify-center'>
+                                                                                <Chip variant='flat' color={tipo(item.situacao)}>{item.situacao}</Chip>
+                                                                            </CardFooter>
+                                                                        </>
+                                                                    )}
+                                                                </Card>
+                                                            ))
+                                                    }
+                                                </div>
+                                            </TableCell>
                                         </TableRow>
                                     ))
-
                         ))
                     }
                 </TableBody>

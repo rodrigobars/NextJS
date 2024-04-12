@@ -6,7 +6,7 @@ export function formatarParaReais(valorFloat: number) {
     const [parteInteira, parteDecimal] = valorFormatado.split('.');
   
     // Adiciona a formatação de Reais (R$) com a vírgula
-    const valorEmReais = `R$ ${parteInteira.replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ,${parteDecimal}`;
+    const valorEmReais = `R$ ${parteInteira.replace(/\B(?=(\d{3})+(?!\d))/g, '.')},${parteDecimal}`;
   
     return valorEmReais;
 }

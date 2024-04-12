@@ -13,10 +13,11 @@
     "axios": "^1.6.5",
     "framer-motion": "^10.18.0",
     "jszip": "^3.10.1",
-    "next": "14.0.4",
+    "next": "^14.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "xlsx": "file:vendor/xlsx-0.20.2.tgz"
   },
   "devDependencies": {
     "@types/node": "^20",

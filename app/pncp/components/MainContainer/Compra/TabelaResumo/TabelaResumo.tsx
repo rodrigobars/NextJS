@@ -1,12 +1,12 @@
 'use client'
 
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Chip } from '@nextui-org/react';
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Chip, Textarea } from '@nextui-org/react';
 import React from 'react'
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
 import { formatarCnpj } from '../../../../../components/Utils/Utils'
     
-const TabelaResumo: React.FC = ( { resultados }: ResultadoCompraItem[] ) => {
-    const [resumo, setResumo] = React.useState([])
+const TabelaResumo: React.FC = ( { resultados, resumo, setResumo }: ResultadoCompraItem[] ) => {
+    
     
     React.useEffect(() => {
 
@@ -43,20 +43,26 @@ const TabelaResumo: React.FC = ( { resultados }: ResultadoCompraItem[] ) => {
                 color='secondary'
                 aria-label="Example static collection table"
                 bottomContent={
-                    <div className="flex w-full justify-center gap-2">
+                    <div className="flex flex-col w-3/5 justify-center self-center gap-3 p-5">
                         <p className='font-bold'>Itens homologados:</p>
-                        <Chip color="success" variant="dot">{resultados
-                            .filter(item => item) // Filtra os valores que são verdadeiros
-                            .map(item => item.numeroItem)
-                            .join(', ')}
-                        </Chip>
+                        <Textarea
+                            isReadOnly
+                            color='default'
+                            labelPlacement="outside"
+                            defaultValue={
+                                resultados
+                                    .filter(item => item) 
+                                    .map(item => item.numeroItem)
+                                    .join(',')
+                            }
+                        />
                     </div>
                 }>
                     
                 <TableHeader>
                     <TableColumn style={{ width: '15%' }}>Cnpj/Cpf</TableColumn>
-                    <TableColumn style={{ width: '40%' }}>Razão Social</TableColumn>
-                    <TableColumn style={{ width: '30%' }}>Itens homologados</TableColumn>
+                    <TableColumn style={{ width: '20%' }}>Razão Social</TableColumn>
+                    <TableColumn style={{ width: '50%' }}>Itens homologados</TableColumn>
                     <TableColumn style={{ width: '15%' }}>Valor Total</TableColumn>
                 </TableHeader>
 
@@ -81,7 +87,13 @@ const TabelaResumo: React.FC = ( { resultados }: ResultadoCompraItem[] ) => {
                                 <TableCell
                                     className='animate-none text-center'
                                     >
-                                    <p className='text-left'>{objeto.itens.join(', ')}</p>
+                                    <Textarea
+                                        isReadOnly
+                                        color='default'
+                                        labelPlacement="outside"
+                                        defaultValue={objeto.itens.join(',')}
+                                        className="max-w-full text-small text-default-600"
+                                    />
                                 </TableCell>
 
                                 <TableCell

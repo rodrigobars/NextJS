@@ -4,9 +4,10 @@ import React, { useState, useEffect }  from 'react'
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer, Accordion, AccordionItem, Textarea } from '@nextui-org/react';
 import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
+import ButtonXLSX from './ButtonXLSX';
 //import CnetMobileAta from './CnetMobileAta';
   
-export default function CnetMobileTable( { dados } ) {
+export default function CnetMobileTable( { dados, unidadeMedida } ) {
 
     const [dictionary, setDictionary] = useState<Record<number, string>>({});
     
@@ -66,6 +67,7 @@ export default function CnetMobileTable( { dados } ) {
                     <TableColumn>Grupo</TableColumn>
                     <TableColumn>Item</TableColumn>
                     <TableColumn>Descrição</TableColumn>
+                    <TableColumn>Fornecimento</TableColumn>
                     <TableColumn>Qtd</TableColumn>
                     <TableColumn>Estimado(Und)</TableColumn>
                     <TableColumn>Status</TableColumn>
@@ -94,6 +96,12 @@ export default function CnetMobileTable( { dados } ) {
                                             className='animate-none text-center'
                                             >
                                             <p className='font-bold'>{proposta.descricao}</p>
+                                        </TableCell>
+
+                                        <TableCell
+                                            className='animate-none text-center'
+                                            >
+                                            <p className='font-bold'>{unidadeMedida[proposta.identificador]}</p>
                                         </TableCell>
 
                                         <TableCell
@@ -194,7 +202,7 @@ export default function CnetMobileTable( { dados } ) {
                                                                         </p>
                                                                         <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
                                                                     </div>
-                                                                    <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
+                                                                    <Chip variant='bordered' color='default' radius='lg' size='sm'>{itemIndex+1}</Chip>
                                                                 </CardHeader>
                                                                 <Divider/>
                                                                 <CardBody>
@@ -270,7 +278,17 @@ export default function CnetMobileTable( { dados } ) {
                                                 className='text-center'>
                                                 <Chip variant='flat' color='default'>{subItem.numero}</Chip>
                                             </TableCell>
-                                            <TableCell className='text-center'>{subItem.descricao}</TableCell>
+                                            <TableCell
+                                                className='animate-none text-center'
+                                                >
+                                                <p className='font-bold'>{subItem.descricao}</p>
+                                            </TableCell>
+
+                                            <TableCell
+                                                className='animate-none text-center'
+                                                >
+                                                <p className='font-bold'>{unidadeMedida[subItem.numero]}</p>
+                                            </TableCell>
                                             <TableCell className='text-center'>{subItem.quantidadeSolicitada}</TableCell>
                                             <TableCell className='text-center'><p className='font-bold'>{subItem.valorEstimadoUnitario ? formatarParaReais(subItem.valorEstimadoUnitario) : null}</p></TableCell>
 
@@ -356,7 +374,7 @@ export default function CnetMobileTable( { dados } ) {
                                                                             </p>
                                                                             <p className="text-small text-default-500 text-left">{formatarCnpj(item.participante.identificacao)}</p>
                                                                         </div>
-                                                                        <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
+                                                                        <Chip variant='bordered' color='default' radius='lg' size='sm'>{itemIndex+1}</Chip>
                                                                     </CardHeader>
                                                                     <Divider/>
                                                                     <CardBody className='text-center'>
@@ -367,7 +385,7 @@ export default function CnetMobileTable( { dados } ) {
                                                                             <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
                                                                             <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
                                                                             {(item.valorNegociado) &&
-                                                                                <p>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
+                                                                                <p className='text-red-500'>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
                                                                             }
                                                                             <p><strong>Marca: </strong>{item.marcaFabricante}</p>
                                                                             <p><strong>Modelo: </strong>{item.modeloVersao}</p>
@@ -401,67 +419,22 @@ export default function CnetMobileTable( { dados } ) {
                     }
                 </TableBody>
             </Table>
+
+            <div className='flex justify-center mt-10'>
+                <ButtonXLSX
+                    dados={dados}
+                    unidadeMedida={unidadeMedida}
+                    />
+            </div>
         </div>
     )
 }
-
-// <Card key={itemIndex} radius="lg" shadow='md'
-//     className='w-[300px] bg-neutral-800'>
-//     <CardHeader className='flex justify-between'>
-//         <div>
-//             <p className="text-small">
-//                 Razão Social: {item.participante.nome}
-//             </p>
-//             <p className="text-small text-default-500 text-left">
-//                 Cnpj: {formatarCnpj(item.participante.identificacao)}
-//             </p>
-//         </div>
-//         <Chip variant='bordered' color='default' radius='lg' size='md'>{itemIndex+1}</Chip>
-//     </CardHeader>
-//     <Divider/>
-//     <CardBody>
-//         <div>
-//             <p><strong>Quantidade: </strong>{item.quantidadeOfertada}</p>
-//             <p><strong>Unitario: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario) : 'None'}</p>
-//             <p><strong>Total: </strong>{item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal ? formatarParaReais(item.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal) : 'None'}</p>
-//             {(item.valorNegociado) &&
-//                 <p>Valor Negociado: {formatarParaReais(item.valorNegociado)}</p>
-//             }
-//             <p><strong>Marca: </strong>{item.marcaFabricante}</p>
-//             <p><strong>Modelo: </strong>{item.modeloVersao}</p>
-//         </div>
-//     </CardBody>
-//     {(item.situacao != 'None') && (
-//         <>
-//             <Divider/>
-//             <CardFooter className='flex justify-center'>
-//                 <Chip variant='flat' color={tipo(item.situacao)}>{item.situacao}</Chip>
-//             </CardFooter>
-//         </>
-//     )}
-// </Card>
-
 
 /////////// Requisição de itens de um grupo
 
 // https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-fase-externa/public/v1/compras/15018205001052023/itens/-3/itens-grupo?tamanhoPagina=10000&pagina=0
 
+
 /////////// PERFEIÇÃO!!!!!!
 
-// const companys = document.getElementsByClassName("ng-trigger-animationRotate180");
-// const filteredElements = Array.from(companys).filter((element, index) => index > 0);
-// filteredElements.forEach((item) => item.click())
 
-// const buttonsProposta = Array.from(document.querySelectorAll('button'))
-//   .filter(el => el.textContent === 'Proposta');
-
-// let delay = 0;
-
-// // Loop para clicar nos botões com delay individual
-// for (const button of buttonsProposta) {
-//   setTimeout(() => {
-//     button.click();
-//   }, delay);
-
-//   delay += 500; // Aumenta o delay para o próximo botão
-// }

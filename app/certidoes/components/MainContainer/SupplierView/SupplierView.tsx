@@ -5,10 +5,10 @@ import { Card, CardHeader, CardBody, Divider, Accordion, AccordionItem, Skeleton
 import './styles.css';
 import { formatarCnpj } from '../../../../components/Utils/Utils'
 
-interface ResponseAPIBrasil {
-    razao_social: string;
-    cnpj: string;
-  }
+// interface ResponseAPIBrasil {
+//     razao_social: string;
+//     cnpj: string;
+//   }
   
 interface SupplierViewProps {
     dataAPIBrasil: ResponseAPIBrasil[];
@@ -41,16 +41,15 @@ interface Certidao {
 }
   
 export default function SupplierView({
-        dataAPIBrasil,
         dataTCU,
         isTCUFetching
     }: SupplierViewProps) {
 
-    const [n, setN] = React.useState(dataAPIBrasil.length)
+    // const [n, setN] = React.useState(dataAPIBrasil.length)
 
-    useEffect(() => {
-        setN(dataAPIBrasil.length)
-    }, [dataAPIBrasil])
+    // useEffect(() => {
+    //     setN(dataAPIBrasil.length)
+    // }, [dataAPIBrasil])
 
     const formataCertidao = (certidaoSituacao: string) => {
         console.log(certidaoSituacao)
@@ -65,36 +64,36 @@ export default function SupplierView({
 
     return (
         <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[260px] gap-5`}>
-            {dataAPIBrasil.map((item: ResponseAPIBrasil, index: number) => (
-                <div key={index}>
-                    <Card  radius="lg">
-                        <CardHeader>
-                            <div>
-                                <p className="text-small truncate text-green-400 animate-pulse">
-                                    {item.razao_social.length > 25 ? `${item.razao_social.slice(0, 25)}...` : item.razao_social}
-                                </p>
-                                <p className="text-small text-default-500">{formatarCnpj(item.cnpj)}</p>
-                            </div>
-                        </CardHeader> 
+            {dataTCU
+                .filter((empresa: ResponseTCU) => empresa.cnpj.replace(/\D/g, ''))
+                .map((filteredEmpresa, index) => {
+                    return (
+                        <div key={index}>
+                            <Card  radius="lg">
+                                <CardHeader>
+                                    <div>
+                                        <p className="text-small truncate text-green-400 animate-pulse">
+                                            {filteredEmpresa.razaoSocial.length > 25 ? `${filteredEmpresa.razaoSocial.slice(0, 25)}...` : filteredEmpresa.razaoSocial}
+                                        </p>
+                                        <p className="text-small text-default-500">{formatarCnpj(filteredEmpresa.cnpj)}</p>
+                                    </div>
+                                </CardHeader> 
 
-                        <Divider />
+                                <Divider />
 
-                        <CardBody>
-                            <div className='flex justify-center'>
-                                {
-                                    isTCUFetching && (
-                                        <div className="w-full flex flex-col gap-2">
-                                            <Skeleton className="h-3 w-full rounded-lg"/>
-                                            <Skeleton className="h-3 w-full rounded-lg"/>
-                                            <Skeleton className="h-3 w-full rounded-lg"/>
-                                            <Skeleton className="h-3 w-full rounded-lg"/>
-                                        </div>
-                                    )
-                                }
-                                {(dataTCU
-                                    .filter((empresa: ResponseTCU) => empresa.cnpj.replace(/\D/g, '') === item.cnpj) //empresa.cnpj === item.cnpj
-                                    .map((filteredEmpresa, index) => {
-                                        return (
+                                <CardBody>
+                                    <div className='flex justify-center'>
+                                        {
+                                            isTCUFetching && (
+                                                <div className="w-full flex flex-col gap-2">
+                                                    <Skeleton className="h-3 w-full rounded-lg"/>
+                                                    <Skeleton className="h-3 w-full rounded-lg"/>
+                                                    <Skeleton className="h-3 w-full rounded-lg"/>
+                                                    <Skeleton className="h-3 w-full rounded-lg"/>
+                                                </div>
+                                            )
+                                        }
+                                        {
                                             <Accordion isCompact key={index}>
                                                 {filteredEmpresa.certidoes.map((certidao: Certidao, certidaoIndex: number) => {
                                                     return(
@@ -126,15 +125,14 @@ export default function SupplierView({
                                                     )}
                                                 )}
                                             </Accordion>
-                                        )
-                                    })
-                                )}
-                                
-                            </div>
-                        </CardBody>
-                    </Card>
-                </div>
-            ))}
+                                        }
+                                        
+                                    </div>
+                                </CardBody>
+                            </Card>
+                        </div>
+                    )})
+            }
         </div>
     )
 }

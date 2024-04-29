@@ -4,85 +4,68 @@ import React from 'react'
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Card, CardHeader, CardBody, Divider, Chip, CardFooter, Spacer, Accordion, AccordionItem, Textarea } from '@nextui-org/react';
 import { formatarCnpj } from '@/app/components/Utils/Utils';
 import { formatarParaReais } from '../../../../../components/Utils/Utils';
+import filterCnetMobile from './filterCnetMobile'
 
-export default function CnetMobileAta( { dados } ){
+export default function CnetMobileAta( { dados, unidadeMedida } ){
 
-    function generateID(): string {
-        let id = Math.floor(Math.random() * 1000000).toString(); // Generate 6-digit number
-        while (id.length < 6) {
-          id = "0" + id; // Pad with zeros if necessary
-        }
-        return id;
-    }
+    const empresas = filterCnetMobile(dados)
+    let totalGlobal = 0
+    console.log(empresas)
 
     return (
-        <div className='sm gap-5 overflow-x-auto max-w-full'>
-            <Table
-                //selectionMode="single"
-                color='secondary'
-                isHeaderSticky
-                topContentPlacement="outside"
-                aria-label="Example static collection table"
-                classNames={{
-                    wrapper: "overflow-x-scroll"
-                }}>
-                <TableHeader>
-                    <TableColumn>Item</TableColumn>
-                    <TableColumn>Descrição</TableColumn>
-                    <TableColumn>Unidade de medida</TableColumn>
-                    <TableColumn>Qtd</TableColumn>
-                    <TableColumn>Marca</TableColumn>
-                    <TableColumn>Modelo</TableColumn>
-                    <TableColumn>Valor unitário</TableColumn>
-                    <TableColumn>Valor total</TableColumn>
-                </TableHeader>
-                <TableBody emptyContent={"No rows to display."}>
-                    {   
-                        //dados.propostas
-                        dados[0]
-                            .sort((a, b) => a.numero - b.numero)
-                            .map((proposta, propostaIndex) =>  (
-                                proposta.tipo != 'Grupo' ? 
-                                    
-                                    <TableRow key={propostaIndex}>
+        <div className='sm flex flex-col items-center center gap-10 max-w-full'>
+            {Object.entries(empresas).map(([cnpj, objeto]) => {
 
-                                        <TableCell>{proposta.identificador}</TableCell>
+                const totalValor = objeto.reduce((acc, empresa) => acc + empresa.proposta.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal, 0);
+                totalGlobal += totalValor
 
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-
-                                        <TableCell>teste</TableCell>
-                                        
+                return(
+                    <> 
+                        <Table key={cnpj} className='max-w-[70%]' isStriped
+                            topContent={
+                                <div className='flex flex-col'>
+                                    <p className='text-sm'><strong>Razão Social: </strong>{objeto[0].proposta.participante.nome}</p>
+                                    <p className='text-sm'><strong>Cnpj: </strong>{formatarCnpj(cnpj)}</p>
+                                </div>
+                            }
+                            bottomContent={
+                                <div className='flex justify-end'>
+                                    <p>Total Global:</p>
+                                    <p className='pl-10'><strong>{formatarParaReais(totalValor)}</strong></p>
+                                </div>
+                            }>
+                            <TableHeader>
+                                <TableColumn style={{ width: '3%' }}>GRUPO</TableColumn>
+                                <TableColumn style={{ width: '5%' }}>ITEM</TableColumn>
+                                <TableColumn style={{ width: '22%' }}>DESCRIÇÃO</TableColumn>
+                                <TableColumn style={{ width: '10%' }}>UND MEDIDA</TableColumn>
+                                <TableColumn style={{ width: '5%' }}>QTD</TableColumn>
+                                <TableColumn style={{ width: '12.5%' }}>MARCA</TableColumn>
+                                <TableColumn style={{ width: '12.5%' }}>MODELO</TableColumn>
+                                <TableColumn style={{ width: '15.5%' }}>VALOR (UND)</TableColumn>
+                                <TableColumn style={{ width: '19.5%' }}>VALOR TOTAL</TableColumn>
+                            </TableHeader>
+                            <TableBody>
+                                {objeto.sort((a, b) => a.item - b.item).map((empresa, empresaIndex) => (
+                                    <TableRow key={empresaIndex}>
+                                        <TableCell>{empresa.grupo}</TableCell>
+                                        <TableCell>{empresa.item}</TableCell>
+                                        <TableCell>{empresa.descricao}</TableCell>
+                                        <TableCell>{unidadeMedida[empresa.item]}</TableCell>
+                                        <TableCell>{empresa.proposta.quantidadeOfertada}</TableCell>
+                                        <TableCell>{empresa.proposta.marcaFabricante}</TableCell>
+                                        <TableCell>{empresa.proposta.modeloVersao}</TableCell>
+                                        <TableCell className='text-right'>{formatarParaReais(empresa.proposta.valores.valorPropostaInicialOuLances.valorCalculado.valorUnitario)}</TableCell>
+                                        <TableCell className='text-right'>{formatarParaReais(empresa.proposta.valores.valorPropostaInicialOuLances.valorCalculado.valorTotal)}</TableCell>
                                     </TableRow>
-
-                                    :
-
-                                    proposta.subItens.map((subItem) => (
-                                        <TableRow key={generateID()}>
-
-                                            <TableCell>{subItem.numero}</TableCell> 
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                            <TableCell>teste</TableCell>
-                                        </TableRow>
-                                    ))
-                        ))
-                    }
-                </TableBody>
-            </Table>
+                                ))}
+                            </TableBody>
+                        </Table>
+                        {/* <div>{objeto.sort((a, b) => a.item - b.item).map((empresa) => `${empresa.item},`)}</div> */}
+                    </>
+                )
+            })}
+            <p>Total Global: {formatarParaReais(totalGlobal)}</p>
         </div>
     )
 }

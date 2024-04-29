@@ -4,14 +4,14 @@ import React, { useState, ChangeEvent } from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Input, Button } from "@nextui-org/react";
 import Image from 'next/image'
 import { LuMinus, LuPlus, LuSearch } from "react-icons/lu";
-import { APIBrasil, TCU } from './fetcher';
+import { TCU } from './fetcher';
 
-interface ResponseAPIBrasil {
-    razao_social: string;
-    nome_fantasia: string;
-    cnpj: string;
-    uf: string | null;
-}
+// interface ResponseAPIBrasil {
+//     razao_social: string;
+//     nome_fantasia: string;
+//     cnpj: string;
+//     uf: string | null;
+// }
   
 interface ResponseTCU {
     razaoSocial: string;
@@ -36,13 +36,13 @@ interface Certidao {
 }
 
 interface SupplierSearchProps {
-    setDataAPIBrasil: React.Dispatch<React.SetStateAction<ResponseAPIBrasil[]>>;
+    // setDataAPIBrasil: React.Dispatch<React.SetStateAction<ResponseAPIBrasil[]>>;
     setDataTCU: React.Dispatch<React.SetStateAction<ResponseTCU[]>>;
     setStarted: React.Dispatch<React.SetStateAction<boolean>>;
     setIsTCUFetching: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export default function SearchSupplier( {setStarted, setIsTCUFetching, setDataAPIBrasil, setDataTCU}: SupplierSearchProps ) {
+export default function SearchSupplier( {setStarted, setIsTCUFetching, setDataTCU}: SupplierSearchProps ) {
     
     const [amountCnpj, setAmountCnpj] = useState<number>(1);
     const [cnpjValues, setCnpjValues] = useState(Array.from({ length: amountCnpj }, () => ''));
@@ -90,22 +90,22 @@ export default function SearchSupplier( {setStarted, setIsTCUFetching, setDataAP
         setIsTCUFetching(true);
 
         // Resetando
-        setDataAPIBrasil([])
+        // setDataAPIBrasil([])
         setDataTCU([])
 
-        APIBrasil(cnpjValues)
-            .then((responseAPIBrasil) => {
-                if (responseAPIBrasil !== undefined) {
-                    setDataAPIBrasil(responseAPIBrasil);
-                } else {
-                    // Tratar o caso em que responseAPIBrasil é undefined, se necessário
-                    console.error("Erro: responseAPIBrasil é undefined");
-                }
-            })
-                .catch((error) => {
-                // Tratar erros relacionados à APIBrasil, se necessário
-                console.error("Erro ao chamar a APIBrasil:", error);
-            });
+        // APIBrasil(cnpjValues)
+        //     .then((responseAPIBrasil) => {
+        //         if (responseAPIBrasil !== undefined) {
+        //             setDataAPIBrasil(responseAPIBrasil);
+        //         } else {
+        //             // Tratar o caso em que responseAPIBrasil é undefined, se necessário
+        //             console.error("Erro: responseAPIBrasil é undefined");
+        //         }
+        //     })
+        //         .catch((error) => {
+        //         // Tratar erros relacionados à APIBrasil, se necessário
+        //         console.error("Erro ao chamar a APIBrasil:", error);
+        //     });
     
         TCU(cnpjValues)
             .then((responseTCU) => {

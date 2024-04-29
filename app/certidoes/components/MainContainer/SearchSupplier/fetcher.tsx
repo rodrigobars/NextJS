@@ -1,11 +1,11 @@
 import { GET } from "@/app/certidoes/api/route";
 
-interface ResponseAPIBrasil {
-    razao_social: string;
-    nome_fantasia: string;
-    cnpj: string;
-    uf: string | null;
-}
+// interface ResponseAPIBrasil {
+//     razao_social: string;
+//     nome_fantasia: string;
+//     cnpj: string;
+//     uf: string | null;
+// }
   
 interface ResponseTCU {
     razaoSocial: string;
@@ -33,26 +33,26 @@ const formatCnpj = (cnpj: string): string => {
     return cnpj.replace(/[^\d]/g, ''); // Remove todos os caracteres não numéricos
 };
 
-const APIBrasil = async (cnpjValues: string[]) => {
+// const APIBrasil = async (cnpjValues: string[]) => {
 
-    const formattedCnpjs: string[] = cnpjValues.map(formatCnpj); // Formata os CNPJs
+//     const formattedCnpjs: string[] = cnpjValues.map(formatCnpj); // Formata os CNPJs
 
-    try {
-        const requests: Promise<ResponseAPIBrasil>[] = formattedCnpjs.map(cnpj =>
-            fetch(`https://brasilapi.com.br/api/cnpj/v1/${cnpj}`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                }}).then(response => response.json())
-        );     
+//     try {
+//         const requests: Promise<ResponseAPIBrasil>[] = formattedCnpjs.map(cnpj =>
+//             fetch(`https://brasilapi.com.br/api/cnpj/v1/${cnpj}`, {
+//                 method: 'GET',
+//                 headers: {
+//                     'Content-Type': 'application/json',
+//                 }}).then(response => response.json())
+//         );     
 
-        const results = await Promise.all(requests);
+//         const results = await Promise.all(requests);
 
-        return(results)
-    } catch (error) {
-        console.error('Erro ao buscar dados para os CNPJs', error);
-    }
-};
+//         return(results)
+//     } catch (error) {
+//         console.error('Erro ao buscar dados para os CNPJs', error);
+//     }
+// };
 
 const TCU = async (cnpjValues: string[]) => {
 
@@ -77,4 +77,4 @@ const TCU = async (cnpjValues: string[]) => {
 
 };
 
-export {APIBrasil, TCU}
+export {TCU}
